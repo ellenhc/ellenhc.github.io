@@ -3,7 +3,7 @@
 body {
     font-size: 18px;
     line-height: 1.5;
-    font-family: "Montserrat", Arial, sans-serif;
+    font-family: 'Montserrat', Arial, sans-serif;
 }
 
 header,
@@ -32,5 +32,5 @@ p img {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Berkshire", cursive, sans-serif;
+    font-family: 'Berkshire Swash', cursive, sans-serif;
 }
