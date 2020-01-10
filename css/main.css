@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Montserrat&display=swap');
-
 body {
     font-size: 18px;
     line-height: 1.5;
@@ -19,6 +18,7 @@ footer {
     background-color: #457B9D;
     color: white;
     text-align: center;
+    border-radius: 25px;
 }
 
 header {
@@ -31,6 +31,11 @@ p img {
     border: 1px solid #A8DADC;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Berkshire Swash', cursive, sans-serif;
 }
