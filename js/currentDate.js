@@ -3,4 +3,4 @@ let currentYear = currentDate.getFullYear();
 document.getElementById("currentYearId").innerHTML = currentYear
 
 let dateLastModified = document.lastModified;
-document.getElementById("currentDate").innerHTML = dateLastModified;
+document.getElementById("dateModified").innerHTML = dateLastModified;
