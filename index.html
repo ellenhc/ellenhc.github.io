@@ -5,7 +5,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ellen Carlson | CIT 230</title>
     <meta name="description" content="Assignment portal for Ellen Carlson in CIT 230: Web Frontend Development at Brigham Young University - Idaho">
     <link href="css/main.css" rel="stylesheet">
@@ -13,18 +13,21 @@
 
 <body>
     <header>
+        <img src="images/portrait.jpg" height="200" alt="image of Ellen">
         <h1>Ellen H Carlson</h1>
     </header>
     <main>
         <h2>CIT 230: Assignment Portal</h2>
+        <hr>
         <ul>
-            <li><a href="#">Lesson 02: Assingment Link</a></li>
-            <li><a href="#">Lesson 03: Assignment Link</a></li>
-            <li><a href="#">Lesson 4: Link | Link</a></li>
+            <li>Lesson 02: <a href="#">Assignment Link</a></li>
+            <li>Lesson 03: <a href="#">Assignment Link</a></li>
+            <li>Lesson 4: <a href="#">Link</a> | <a href="#">Link</a></li>
         </ul>
     </main>
     <footer>
-        &copy; 2020 | Ellen Carlson | Washington | <a href="https://www.byui.edu/online">BYUI Online Learning </a> <br> Last updated: <span id="currentDate"></span>
+        <p>&copy; 2020 | Ellen Carlson | Washington | <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+        <p id="lastUpdatedText">Last updated <span id="currentDate"></span></p>
     </footer>
     <script src="js/currentDate.js"></script>
 </body>

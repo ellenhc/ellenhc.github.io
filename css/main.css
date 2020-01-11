@@ -1,10 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Montserrat&display=swap');
-body {
-    font-size: 18px;
-    line-height: 1.5;
-    font-family: 'Montserrat', Arial, sans-serif;
-}
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap');
 header,
 nav,
 main,
@@ -15,27 +9,61 @@ footer {
 
 header,
 footer {
-    background-color: #457B9D;
+    background-color: #457b9d;
     color: white;
     text-align: center;
-    border-radius: 25px;
+    border-radius: 10px;
+    font-size: 24px;
 }
 
 header {
-    padding: 1.5rem;
+    padding: 1px;
 }
 
-p img {
+body {
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #1d3557;
+}
+
+body a {
+    color: #457b9d;
+}
+
+img {
     float: right;
     margin: 10px;
-    border: 1px solid #A8DADC;
 }
 
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'Berkshire Swash', cursive, sans-serif;
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+a:hover {
+    color: #a8dadc;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+footer {
+    font-size: 16px;
+    padding: 1px;
+}
+
+#lastUpdatedText {
+    font-size: 14px;
+}
+
+footer a {
+    color: white;
 }

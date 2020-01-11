@@ -1,2 +1,2 @@
-const options = {weekday: "long", day: "numeric", month: "long", year: "numeric"};
-document.getElementById("currentDate").textContent = new Date().toLocaleDateString("en-US", options);
+let dateLastModified = document.lastModified;
+document.getElementById("currentDate").innerHTML = dateLastModified;
