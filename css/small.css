@@ -13,8 +13,6 @@ footer {
     background-color: #457b9d;
     color: white;
     text-align: center;
-    /*font-size: 24px;
-    might not need this*/
 }
 
 header {
@@ -22,7 +20,7 @@ header {
 }
 
 body {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.5;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
