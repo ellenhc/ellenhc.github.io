@@ -13,8 +13,8 @@ footer {
     background-color: #457b9d;
     color: white;
     text-align: center;
-    border-radius: 10px;
     font-size: 24px;
+    /*might not need this*/
 }
 
 header {
@@ -33,9 +33,10 @@ body a {
     color: #457b9d;
 }
 
-img {
-    float: right;
-    margin: 10px;
+header img {
+    width: 200px;
+    /*width from video*/
+    height: auto;
 }
 
 h1,
@@ -44,8 +45,15 @@ h2 {
     font-weight: 900;
 }
 
+h1 {
+    font-size: 1.5rem;
+    margin: 0.15rem;
+}
+
 h2 {
-    margin-bottom: 0;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    /*copied from video...was originally zero*/
 }
 
 a:hover {
