@@ -44,6 +44,10 @@ a:link {
     text-decoration: none;
 }
 
+section img {
+    width: 100%;
+}
+
 
 /* phone or baseline views **************************/
 
@@ -77,14 +81,6 @@ main section {
     }
     section:nth-child(3) {
         grid-column: span 2;
-    }
-    main picture {
-        display: block;
-    }
-    main section picture img {
-        width: 100%;
-        height: auto;
-        border: 1px solid #bbb;
     }
     main picture {
         display: block;
