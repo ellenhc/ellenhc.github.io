@@ -1,3 +1,40 @@
+header,
+nav,
+main,
+footer {
+    margin: 1.25rem auto;
+    max-width: 760px;
+}
+
+header,
+footer {
+    background-color: #457b9d;
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 1px;
+}
+
+footer {
+    font-size: 16px;
+    padding: 1px;
+}
+
+footer a {
+    color: white;
+}
+
+a:hover {
+    color: #a8dadc;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
 /* phone or baseline views **************************/
 
 main {
