@@ -31,7 +31,9 @@ h3 {
     background-color: #1d3557;
     color: white;
     margin-top: 0px;
-    padding: 0.20em;
+    padding: 0.30em;
+    margin-left: -15px;
+    margin-right: -15px;
 }
 
 footer {
@@ -82,9 +84,6 @@ main section {
 @media only screen and (min-width: 37.5em) {
     main {
         grid-template-columns: 1fr 1fr;
-    }
-    section:nth-child(2) {
-        display: block;
     }
     section:nth-child(3) {
         grid-column: span 2;
