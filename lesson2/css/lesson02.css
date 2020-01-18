@@ -58,6 +58,7 @@ a:link {
 section img {
     max-width: 100%;
     margin-top: 10px;
+    border: 1px solid #f7f7f7;
 }
 
 section h4 {
@@ -89,7 +90,6 @@ main section {
 main section picture img {
     width: 100%;
     height: auto;
-    border: 1px solid #e5e5e5;
 }
 
 
@@ -108,7 +108,7 @@ main section picture img {
     main section picture img {
         width: 100%;
         height: auto;
-        border: 1px solid #e5e5e5;
+        border: 1px solid #f7f7f7;
     }
 }
 
