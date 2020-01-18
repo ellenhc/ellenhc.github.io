@@ -27,6 +27,13 @@ body a {
     color: #457b9d;
 }
 
+h3 {
+    background-color: #1d3557;
+    color: white;
+    margin-top: 0px;
+    padding: 0.20em;
+}
+
 footer {
     font-size: 16px;
     padding: 1px;
