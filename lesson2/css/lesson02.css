@@ -80,6 +80,11 @@ main section {
     border-radius: 5px;
 }
 
+main section picture img {
+    width: 100%;
+    height: auto;
+}
+
 
 /* Tablet Views ******************************/
 
