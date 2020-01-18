@@ -22,6 +22,7 @@ body {
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     color: #1d3557;
+    background-color: #f7f7f7;
 }
 
 body a {
@@ -29,8 +30,8 @@ body a {
 }
 
 h3 {
-    background-color: #1d3557;
-    color: white;
+    background-color: #e5e5e5;
+    color: #1d3557;
     margin-top: 0px;
     padding: 0.30em;
     margin-left: -16px;
@@ -79,9 +80,9 @@ main {
 
 main section {
     margin: 0.5rem;
-    border: 1px solid #bbb;
+    border: 1px solid #e5e5e5;
     padding: 0 1rem;
-    background-color: #eee;
+    background-color: white;
     border-radius: 5px;
 }
 
