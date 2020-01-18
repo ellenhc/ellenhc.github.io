@@ -89,6 +89,7 @@ main section {
 main section picture img {
     width: 100%;
     height: auto;
+    border: 1px solid #e5e5e5;
 }
 
 
@@ -107,7 +108,7 @@ main section picture img {
     main section picture img {
         width: 100%;
         height: auto;
-        border: 1px solid #bbb;
+        border: 1px solid #e5e5e5;
     }
 }
 
