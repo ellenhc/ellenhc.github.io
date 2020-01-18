@@ -56,6 +56,7 @@ a:link {
 
 section img {
     max-width: 100%;
+    margin-top: 10px;
 }
 
 section h4 {
@@ -87,7 +88,6 @@ main section {
 main section picture img {
     width: 100%;
     height: auto;
-    margin-top: 10px;
 }
 
 
