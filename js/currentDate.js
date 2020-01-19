@@ -1,4 +1,4 @@
-let currentDate = new Date();
+let currentDate = new Date(); // get current date
 let currentYear = currentDate.getFullYear();
 document.getElementById("currentYearId").innerHTML = currentYear
 
