@@ -1,5 +1,6 @@
-/*Navigation*/
+/*Navigation************************************/
 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300&display=swap');
 nav {
     background-color: #e5e5e5;
     text-align: center;
@@ -37,7 +38,7 @@ nav li a:hover:not(.active) {
 }
 
 
-/*Page Content*/
+/*Main Page Content************************************/
 
 header,
 nav,
@@ -66,11 +67,61 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+
+/*typography*/
+
 table,
 td,
 th {
     border: 1px solid #e5e5e5;
 }
+
+#sample1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 40px;
+    /*background-color*/
+    /*color*/
+}
+
+#sample2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    /*background-color*/
+    /*color*/
+}
+
+#sample3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    /*background-color*/
+    /*color*/
+}
+
+#sample4 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+}
+
+#sample5 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+    /*color*/
+}
+
+#sample6 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px
+    /*color*/
+}
+
+#sample7 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    /*color*/
+}
+
+
+/*color scheme*/
 
 .colors {
     width: 100%;
@@ -80,7 +131,7 @@ th {
 }
 
 .colors th {
-    background-color: #b7b7b7;
+    background-color: #e5e5e5;
 }
 
 .colors td {
@@ -105,7 +156,7 @@ th {
 }
 
 
-/*Footer*/
+/*Footer************************************/
 
 footer {
     font-size: 16px;
