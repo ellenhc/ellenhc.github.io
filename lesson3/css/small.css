@@ -33,10 +33,51 @@ nav li a:hover:not(.active) {
 }
 
 
-/*Body*/
+/*Page Content*/
+
+header,
+nav,
+main,
+footer {
+    margin: 1.25rem auto;
+    max-width: 760px;
+}
+
+header,
+footer {
+    background-color: #457b9d;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+header {
+    padding: 1px;
+}
 
 body {
-    background-color: #f3f3f3;
-    /*might prefer more white*/
+    background-color: #f7f7f7;
+    color: #1d3557;
     font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*Footer*/
+
+footer {
+    font-size: 16px;
+    padding: 1px;
+}
+
+footer a {
+    color: white;
+}
+
+a:hover {
+    color: #a8dadc;
+}
+
+a:link {
+    text-decoration: none;
 }
