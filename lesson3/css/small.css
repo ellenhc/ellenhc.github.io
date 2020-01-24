@@ -141,19 +141,23 @@ th {
 }
 
 .primary {
-    background-color: #a8dadc;
-}
-
-.secondary {
-    background-color: #87aab9;
+    background-color: #15AADC;
 }
 
 .accent1 {
-    background-color: #457b9d;
+    background-color: #FFD82D;
 }
 
 .accent2 {
-    background-color: #1d3557;
+    background-color: #FFAA32;
+}
+
+.neutral1 {
+    background-color: #E6E6E6;
+}
+
+.neutral2 {
+    background-color: #A3A3A3;
 }
 
 
