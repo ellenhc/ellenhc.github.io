@@ -75,14 +75,14 @@ body {
 /*target audience*/
 
 #persona {
+    border-collapse: collapse;
     width: 100%;
 }
 
 #persona table,
 #persona th,
 #persona td {
-    border: 1px solid black;
-    border-collapse: collapse;
+    border: 1px solid white;
 }
 
 #persona th,
@@ -92,6 +92,11 @@ body {
 }
 
 #persona th {
+    background-color: #a3a3a3;
+    color: black;
+}
+
+#persona td {
     background-color: #e6e6e6;
 }
 
