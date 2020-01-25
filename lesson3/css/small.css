@@ -6,7 +6,7 @@ nav {
     text-align: center;
     max-width: 767px;
     margin: 0 auto;
-    border-radius: 5px;
+    border-radius: 0px 0px 5px 5px;
 }
 
 nav ul {
@@ -80,8 +80,7 @@ body {
 }
 
 #logo-container>div {
-    text-align: center;
-    width: 50%;
+    margin: 1em;
 }
 
 
@@ -96,22 +95,16 @@ th {
 #sample1 {
     font-family: 'Comfortaa', cursive;
     font-size: 40px;
-    /*background-color*/
-    /*color*/
 }
 
 #sample2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
-    /*background-color*/
-    /*color*/
 }
 
 #sample3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-    /*background-color*/
-    /*color*/
 }
 
 #sample4 {
@@ -122,19 +115,16 @@ th {
 #sample5 {
     font-family: 'Comfortaa', cursive;
     font-size: 25px;
-    /*color*/
 }
 
 #sample6 {
     font-family: 'Comfortaa', cursive;
     font-size: 20px
-    /*color*/
 }
 
 #sample7 {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    /*color*/
 }
 
 
