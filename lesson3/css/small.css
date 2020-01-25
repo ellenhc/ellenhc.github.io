@@ -72,6 +72,30 @@ body {
 }
 
 
+/*target audience*/
+
+#persona {
+    width: 100%;
+}
+
+#persona table,
+#persona th,
+#persona td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#persona th,
+#persona td {
+    text-align: left;
+    padding: 0.3em;
+}
+
+#persona th {
+    background-color: #e6e6e6;
+}
+
+
 /*typography*/
 
 #typography {
@@ -138,7 +162,7 @@ body {
 
 .colors td {
     width: 20%;
-    height: 3em;
+    height: 4em;
 }
 
 .primary {
