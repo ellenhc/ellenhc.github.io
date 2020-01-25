@@ -74,17 +74,17 @@ body {
 
 /*typography*/
 
-.typography {
+#typography {
     border-collapse: collapse;
     width: 100%;
 }
 
-.typography th,
-td {
+#typography th,
+#typography td {
     padding: 0.3em;
 }
 
-.typography tr:nth-child(odd) {
+#typography tr:nth-child(odd) {
     background-color: #f2f2f2
 }
 
