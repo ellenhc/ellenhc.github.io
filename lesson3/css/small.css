@@ -61,7 +61,7 @@ footer {
 }
 
 header {
-    padding: 1px;
+    padding: 1px 0px 0px 0px;
 }
 
 body {
@@ -81,6 +81,7 @@ body {
 
 #logo-container>div {
     text-align: center;
+    width: 50%;
 }
 
 
