@@ -41,6 +41,9 @@ nav li a:hover:not(.active) {
 
 /*Main Page Content************************************/
 
+
+/*header, nav, footer, body*/
+
 header,
 nav,
 main,
@@ -66,6 +69,18 @@ body {
     color: #1e1e1e;
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
+}
+
+
+/*logo*/
+
+#logo-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#logo-container>div {
+    text-align: center;
 }
 
 
