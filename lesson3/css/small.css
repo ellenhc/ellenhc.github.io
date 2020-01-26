@@ -107,6 +107,7 @@ body {
 #typography {
     border-collapse: collapse;
     width: 100%;
+    text-align: center;
 }
 
 #typography th,
