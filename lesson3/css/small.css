@@ -75,29 +75,29 @@ body {
 
 /*target audience*/
 
-#persona {
+.persona {
     border-collapse: collapse;
     width: 100%;
 }
 
-#persona table,
-#persona th,
-#persona td {
+.persona table,
+.persona th,
+.persona td {
     border: 1px solid white;
 }
 
-#persona th,
-#persona td {
+.persona th,
+.persona td {
     text-align: left;
     padding: 0.3em;
 }
 
-#persona th {
+.persona th {
     background-color: #a3a3a3;
     color: black;
 }
 
-#persona td {
+.persona td {
     background-color: #e6e6e6;
 }
 
