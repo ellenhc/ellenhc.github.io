@@ -3,6 +3,14 @@ header {
     max-width: 100%;
 }
 
+header h1 {
+    font-family: 'Comfortaa', cursive;
+}
+
+header p {
+    font-family: 'Montserrat', sans-serif;
+}
+
 header,
 footer {
     background-color: #0e769a;
