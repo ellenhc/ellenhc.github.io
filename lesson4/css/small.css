@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+header,
+footer {
+    max-width: 100%;
+}
+
+header,
+footer {
+    background-color: #0e769a;
+    color: white;
+    text-align: center;
+}
+
+
+/*Footer************************************/
+
+
+/*footer {
+    font-size: 16px;
+    padding: 1px;
+}*/
+
+footer a {
+    color: white;
+}
+
+a:hover {
+    color: #ffaa32;
+}
+
+a:link {
+    text-decoration: none;
+}
