@@ -24,6 +24,10 @@ p {
     font-family: 'Montserrat', sans-serif;
 }
 
+#hero-image {
+    margin: auto;
+}
+
 main,
 footer {
     max-width: 760px;
