@@ -11,6 +11,11 @@ footer {
     text-align: center;
 }
 
+#content {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
 h1,
 h2,
 h3,
@@ -22,15 +27,6 @@ h6 {
 
 p {
     font-family: 'Montserrat', sans-serif;
-}
-
-#hero-image {
-    margin: auto;
-}
-
-main,
-footer {
-    max-width: 760px;
 }
 
 
