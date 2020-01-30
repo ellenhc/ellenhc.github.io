@@ -1,14 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
-header {
-    max-width: 100%;
-}
-
-header h1 {
-    font-family: 'Comfortaa', cursive;
-}
-
-header p {
-    font-family: 'Montserrat', sans-serif;
+header,
+nav {
+    width: 100%;
 }
 
 header,
@@ -18,7 +11,20 @@ footer {
     text-align: center;
 }
 
-body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Comfortaa', cursive;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+main,
 footer {
     max-width: 760px;
 }
