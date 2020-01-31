@@ -40,27 +40,6 @@ nav {
     font-weight: bold;
 }
 
-body {
-    background-color: #f7f7f7;
-    font-size: 16px;
-}
-
 .responsive li {
     display: block;
-}
-
-
-/*Tablet and Desktop Views************************/
-
-@media only screen and (min-width: 32.5em) {
-    .navigation {
-        display: flex;
-    }
-    .navigation li {
-        display: block;
-        flex: 1 1 100%;
-    }
-    .navigation li:first-child {
-        display: none;
-    }
 }

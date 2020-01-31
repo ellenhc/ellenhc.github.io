@@ -42,6 +42,11 @@ p {
     font-family: 'Montserrat', sans-serif;
 }
 
+body {
+    background-color: #f7f7f7;
+    font-size: 16px;
+}
+
 
 /*Section 1**********************************/
 
@@ -57,6 +62,7 @@ p {
     background-color: #E6E6E6;
     margin-top: 2em;
     margin-bottom: 2em;
+    text-align: center;
 }
 
 
