@@ -45,27 +45,51 @@ p {
 
 /*Section 1**********************************/
 
+#weather-summary {
+    background-color: #15AADC;
+    width: 25%;
+}
+
 
 /*Section 2**********************************/
+
+#second-sec {
+    background-color: #E6E6E6;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
 
 
 /*Section 3**********************************/
 
-
-/*Section 4**********************************/
-
-address {
-    display: block;
+#third-sec {
+    background-color: #E6E6E6;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 
 /*Footer************************************/
 
+#fourth-sec {
+    background-color: #A3A3A3;
+    overflow: auto;
+}
 
-/*footer {
-    font-size: 16px;
-    padding: 1px;
-}*/
+#fourth-sec iframe {
+    margin: 1em;
+}
+
+#contact-info {
+    width: 50%;
+    float: right;
+    margin: 1em;
+    text-align: left;
+}
+
+address {
+    display: block;
+}
 
 footer a {
     color: white;
