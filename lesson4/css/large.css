@@ -1,6 +1,17 @@
 /*Tablet and Desktop Views************************/
 
 @media only screen and (min-width: 32.5em) {
+    .logo-wrapper img {
+        width: 100%;
+    }
+    .logo-wrapper h1 {
+        font-size: 3rem;
+    }
+    #motto {
+        letter-spacing: 1.5pt;
+        font-size: larger;
+        margin-left: 15px;
+    }
     .navigation {
         display: flex;
     }
