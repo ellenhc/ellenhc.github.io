@@ -12,4 +12,8 @@ let currentMonth = months[currentTime.getMonth()]; //Returns the month of a date
 
 let currentYear = currentTime.getFullYear(); //Returns the year of a date as a four digit number
 
+//Shows current year next to copyright symbol in footer
+document.getElementById("currentYearId").innerHTML = currentYear;
+
+//Shows today's date in footer
 document.getElementById("currentTimeId").innerHTML = currentWeekday + ", " + currentDate + " " + currentMonth + " " + currentYear;
