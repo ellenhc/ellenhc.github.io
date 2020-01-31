@@ -75,6 +75,10 @@ footer p {
     font-size: 0.9em;
 }
 
+footer p:first-child {
+    padding-top: 10px;
+}
+
 footer p:last-child {
     padding-bottom: 10px;
 }
