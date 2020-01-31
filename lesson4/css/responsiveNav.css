@@ -26,10 +26,6 @@ nav {
     text-decoration: none;
 }
 
-.navigation a:hover {
-    color: white;
-}
-
 .navigation a:hover:not(.active) {
     background-color: #a3a3a3;
     color: white;
