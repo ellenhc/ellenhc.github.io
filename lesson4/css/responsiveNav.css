@@ -21,19 +21,20 @@ nav {
 .navigation a {
     display: block;
     color: #1e1e1e;
-    padding: 0.75rem;
+    padding: 0.8rem 2%;
     text-align: center;
     text-decoration: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.navigation a:hover:not(.active) {
-    background-color: #a3a3a3;
-    color: white;
-}
-
-.active {
-    background-color: #ffe36c;
+.navigation .active {
+    background-color: rgba(0, 0, 0, 0.2);
     font-weight: bold;
+}
+
+.navigation a:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
 }
 
 .responsive li {
