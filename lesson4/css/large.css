@@ -25,4 +25,10 @@
     .navigation li:first-child {
         display: none;
     }
+    #content {
+        font-size: 18px;
+    }
+    footer p {
+        font-size: 15px;
+    }
 }

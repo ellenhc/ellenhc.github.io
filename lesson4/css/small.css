@@ -90,7 +90,9 @@ section {
 }
 
 footer p {
-    font-size: 0.9em;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
 }
 
 footer p:first-child {
