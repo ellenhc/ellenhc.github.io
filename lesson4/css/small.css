@@ -56,10 +56,16 @@ body {
 }
 
 section {
-    padding: 0.1em;
     margin-top: 1em;
     margin-bottom: 1em;
 }
+
+section h3 {
+    padding: 0.5em;
+}
+
+
+/*I have different IDs for the sections for ease of styling in upcoming weeks*/
 
 
 /*Section 1**********************************/
