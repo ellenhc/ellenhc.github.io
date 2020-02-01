@@ -10,6 +10,10 @@ nav {
     padding: 0;
 }
 
+nav>ul {
+    margin: 0
+}
+
 .navigation li:first-child {
     display: block;
 }
