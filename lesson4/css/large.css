@@ -24,4 +24,7 @@
     .navigation li:first-child {
         display: none;
     }
+    footer {
+        font-size: larger;
+    }
 }
