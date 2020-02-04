@@ -1,0 +1,24 @@
+/*Tablet and Medium Views************************/
+
+@media only screen and (min-width: 32.5em) {
+    .logo-wrapper img {
+        width: 100px;
+        height: auto;
+    }
+    .header-section h1 {
+        font-size: 2.5rem;
+        margin-left: 0.2em;
+        margin-bottom: 0px;
+    }
+    #motto {
+        letter-spacing: 1.1pt;
+        font-size: larger;
+        margin-left: 12px;
+    }
+    .content {
+        font-size: 17px;
+    }
+    footer p {
+        font-size: 14px;
+    }
+}
