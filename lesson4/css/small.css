@@ -30,7 +30,7 @@ footer {
 }
 
 #content {
-    max-width: 900px;
+    max-width: 960px;
     margin: 0 auto;
 }
 
@@ -63,33 +63,30 @@ section h3 {
 }
 
 
-/*I have different IDs for the sections for ease of styling in upcoming weeks*/
-
-
 /*Section 1**********************************/
 
-#first-sec {
+.first-sec {
     background-color: #E6E6E6;
 }
 
 
 /*Section 2**********************************/
 
-#second-sec {
+.second-sec {
     background-color: #E6E6E6;
 }
 
 
 /*Section 3**********************************/
 
-#third-sec {
+.third-sec {
     background-color: #E6E6E6;
 }
 
 
 /*Footer************************************/
 
-#fourth-sec {
+.fourth-sec {
     background-color: #E6E6E6;
 }
 
