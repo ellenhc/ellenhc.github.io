@@ -30,6 +30,11 @@
     .content {
         font-size: 18px;
     }
+    .weather-summary {
+        top: 1.5em;
+        left: 1.5em;
+        padding: 0.5rem;
+    }
     footer p {
         font-size: 15px;
     }

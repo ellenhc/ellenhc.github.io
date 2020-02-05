@@ -15,6 +15,11 @@
     .content {
         font-size: 17px;
     }
+    .weather-summary {
+        top: 1.25em;
+        left: 1.25em;
+        padding: 0.4em;
+    }
     footer p {
         font-size: 14px;
     }
