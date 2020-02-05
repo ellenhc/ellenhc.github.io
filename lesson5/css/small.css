@@ -124,6 +124,10 @@ section h3 {
     position: relative;
 }
 
+.first-sec img {
+    width: 100%;
+}
+
 .weather-summary {
     position: absolute;
     top: 1em;
@@ -137,7 +141,7 @@ section h3 {
 /*Section 2**********************************/
 
 .second-sec {
-    background-color: #E6E6E6;
+    display: none;
 }
 
 

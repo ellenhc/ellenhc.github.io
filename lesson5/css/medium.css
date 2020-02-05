@@ -20,6 +20,10 @@
         left: 1.25em;
         padding: 0.4em;
     }
+    .second-sec {
+        display: block;
+        background-color: #E6E6E6;
+    }
     footer p {
         font-size: 14px;
     }
