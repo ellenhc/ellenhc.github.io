@@ -163,6 +163,10 @@ article {
     display: none;
 }
 
+address {
+    padding-bottom: 0.5em;
+}
+
 
 /*Footer************************************/
 
