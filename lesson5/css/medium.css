@@ -68,8 +68,13 @@
         justify-content: center;
         align-items: center;
     }
+    .map {
+        display: block;
+        padding: 1em;
+    }
     /*Footer**********************/
-    footer p {
+    footer p,
+    address {
         font-size: 14px;
     }
 }

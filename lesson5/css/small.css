@@ -159,6 +159,10 @@ article {
     background-color: #E6E6E6;
 }
 
+.map {
+    display: none;
+}
+
 
 /*Footer************************************/
 
