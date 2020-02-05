@@ -63,6 +63,9 @@
         margin: 1em 1em 0.5em 0.5em;
     }
     /*Fourth Section aka contact**********************/
+    .fourth-sec {
+        display: flex;
+    }
     /*Footer**********************/
     footer p {
         font-size: 14px;
