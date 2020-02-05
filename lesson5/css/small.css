@@ -130,6 +130,7 @@ section {
     left: 1em;
     padding: 0.3rem;
     background-image: linear-gradient(to bottom right, #FFAA32, #FFD82D);
+    opacity: 0.9;
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -148,11 +149,14 @@ section {
 }
 
 
-/*Footer************************************/
+/*Section 4**********************************/
 
 .fourth-sec {
     background-color: #E6E6E6;
 }
+
+
+/*Footer************************************/
 
 footer p {
     font-size: 13px;
