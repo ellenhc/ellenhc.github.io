@@ -48,7 +48,8 @@
         padding: 0.25em;
         font-size: 15px;
         border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-        background-color: rgba(0, 0, 0, 0.2);
+        background-color: #15AADC;
+        color: white;
     }
     .forecast-table img {
         padding: 5px;
