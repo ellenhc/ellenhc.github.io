@@ -159,6 +159,10 @@ article {
     background-color: #E6E6E6;
 }
 
+.fourth-sec h5 {
+    margin-bottom: 0.25em;
+}
+
 .map {
     display: none;
 }
