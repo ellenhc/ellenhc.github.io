@@ -15,13 +15,13 @@
     .content {
         font-size: 17px;
     }
-    /*First Section aka Hero Image + Weather Summary*/
+    /*First Section aka Hero Image + Weather Summary**********************/
     .weather-summary {
         top: 1.25em;
         left: 1.25em;
         padding: 0.4em;
     }
-    /*Second Section aka 5 Day Forecast*/
+    /*Second Section aka 5 Day Forecast**********************/
     .second-sec {
         display: block;
         text-align: center;
@@ -57,11 +57,13 @@
         display: block;
         padding: 0 5px 5px;
     }
-    /*Third Section aka article*/
+    /*Third Section aka article**********************/
     .third-sec img {
         float: right;
         margin: 1em 1em 0.5em 0.5em;
     }
+    /*Fourth Section aka contact**********************/
+    /*Footer**********************/
     footer p {
         font-size: 14px;
     }
