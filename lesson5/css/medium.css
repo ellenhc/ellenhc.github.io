@@ -24,7 +24,7 @@
     /*Second Section aka 5 Day Forecast*/
     .second-sec {
         display: block;
-        background-color: #E6E6E6;
+        text-align: center;
     }
     .forecast-table {
         display: flex;
@@ -32,6 +32,7 @@
     }
     .column {
         flex: 1 1 100%;
+        background-color: #e6e6e6;
         color: #1e1e1e;
         border-top: 1px solid rgba(0, 0, 0, 0.1);
         border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -47,7 +48,7 @@
         padding: 0.25em;
         font-size: 15px;
         border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-        background-color: #e6e6e6;
+        background-color: rgba(0, 0, 0, 0.2);
     }
     .forecast-table img {
         padding: 5px;
