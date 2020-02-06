@@ -152,6 +152,11 @@ article {
     padding: 0em 1em 1em 1em;
 }
 
+article h3 {
+    padding-top: 1em;
+    margin-bottom: 0;
+}
+
 article .author {
     font-size: smaller;
     margin-top: 0;
