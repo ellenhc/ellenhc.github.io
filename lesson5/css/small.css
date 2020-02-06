@@ -109,7 +109,9 @@ body {
     color: #1e1e1e;
 }
 
-section {
+.first-sec,
+.second-sec,
+.third-sec {
     margin-top: 1em;
     margin-bottom: 1em;
 }
