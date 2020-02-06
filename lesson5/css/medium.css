@@ -68,10 +68,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 1em;
     }
     .map {
         display: block;
-        padding: 1em;
+        padding-right: 1em;
     }
     /*Footer**********************/
     footer p,
