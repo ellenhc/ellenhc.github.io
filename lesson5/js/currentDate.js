@@ -17,3 +17,14 @@ document.getElementById("currentYearId").innerHTML = currentYear;
 
 //Shows today's date in footer
 document.getElementById("currentTimeId").innerHTML = currentWeekday + ", " + currentDate + " " + currentMonth + " " + currentYear;
+
+//Supplies the dates for five day forecast
+let currentDayNumber = currentTime.getDay();
+let endDay = currentDayNumber + 5;
+for (i = currentDayNumber; i < endDay; i++) {
+  let nextDayNumber = i % 7;
+  let nextDay = days[nextDayNumber];
+  let j = i - currentDayNumber;
+  let x = document.getElementsByClassName("dayClass");
+  x[j].innerHTML = nextDay;
+}
