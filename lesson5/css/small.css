@@ -152,6 +152,11 @@ article {
     padding: 0em 1em 1em 1em;
 }
 
+article .author {
+    font-size: smaller;
+    margin-top: 0;
+}
+
 
 /*Section 4**********************************/
 
@@ -161,7 +166,8 @@ article {
 }
 
 .fourth-sec h5 {
-    margin-bottom: 0.25em;
+    margin-top: 0;
+    margin-bottom: 0.3em;
 }
 
 .map {
