@@ -31,6 +31,12 @@ header img {
     height: auto;
 }
 
+#banner {
+    background-color: #FFD82D;
+    padding: 5px;
+    text-align: center;
+  }
+
 
 /*Navigation****************************************************/
 
