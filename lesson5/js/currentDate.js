@@ -28,3 +28,9 @@ for (i = currentDayNumber; i < endDay; i++) {
   let x = document.getElementsByClassName("dayClass");
   x[j].innerHTML = nextDay;
 }
+
+//Displays banner if it's Friday
+if (currentDayNumber == 5){
+  let text = "Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.";
+  document.getElementById("banner").innerHTML = text;
+}
