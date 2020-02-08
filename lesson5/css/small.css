@@ -204,6 +204,9 @@ address {
     font-size: 13px;
 }
 
+.social-links a{
+    padding: 0.1em;
+  }
 
 /*Footer************************************/
 
