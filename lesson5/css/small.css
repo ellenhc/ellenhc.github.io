@@ -142,6 +142,9 @@ body {
     opacity: 0.9;
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
+.first-sec table {
+    font-size: 13px;
+}
 
 .conditionsLeft {
     font-weight: bold;
@@ -180,6 +183,7 @@ article .author {
 .fourth-sec {
     background-color: #E6E6E6;
     padding: 0.5em;
+    text-align: center;
 }
 
 .map {

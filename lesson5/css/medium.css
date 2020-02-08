@@ -75,7 +75,7 @@
     }
     /*Footer**********************/
     footer p,
-    address {
+    address, .first-sec table {
         font-size: 14px;
     }
 }
