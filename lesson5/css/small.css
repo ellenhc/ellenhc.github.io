@@ -177,6 +177,12 @@ article .author {
     margin-top: 0;
 }
 
+.third-sec img {
+    max-width: 100%;
+    margin-bottom: -1em;
+    margin-top: 1em;
+  }
+
 
 /*Section 4**********************************/
 
