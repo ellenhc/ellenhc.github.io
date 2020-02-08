@@ -36,7 +36,7 @@
         padding: 0.5rem;
     }
     footer p,
-    address, .first-sec table {
+    address, table {
         font-size: 15px;
     }
 }

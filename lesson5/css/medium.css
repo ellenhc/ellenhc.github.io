@@ -73,9 +73,12 @@
         display: block;
         padding-right: 1em;
     }
+    address {
+        text-align: left;
+    }
     /*Footer**********************/
     footer p,
-    address, .first-sec table {
+    address, table {
         font-size: 14px;
     }
 }
