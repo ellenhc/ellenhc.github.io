@@ -143,11 +143,11 @@ body {
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.weather-summary h3, p {
+.weather-summary h3, .weather-summary p {
     margin: 0;
     text-align: right;
   }
-  
+
 .first-sec table {
     font-size: 13px;
 }
@@ -189,11 +189,14 @@ article .author {
 .fourth-sec {
     background-color: #E6E6E6;
     padding: 0.5em;
-    text-align: center;
 }
 
 .map {
     display: none;
+}
+
+.contact-info {
+    text-align: center;
 }
 
 address {

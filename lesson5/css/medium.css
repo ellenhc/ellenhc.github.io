@@ -73,7 +73,7 @@
         display: block;
         padding-right: 1em;
     }
-    address {
+    .contact-info {
         text-align: left;
     }
     /*Footer**********************/
