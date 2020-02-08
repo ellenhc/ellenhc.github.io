@@ -20,6 +20,7 @@
         top: 1.25em;
         left: 1.25em;
         padding: 0.4em;
+        font-size: 14px;
     }
     /*Second Section aka 5 Day Forecast**********************/
     .second-sec {
@@ -58,6 +59,9 @@
         padding: 0 5px 5px;
     }
     /*Third Section aka article**********************/
+    .third-sec {
+        display: block;
+      }
     .third-sec img {
         float: right;
         margin: 1em 1em 0.5em 0.5em;
@@ -78,7 +82,7 @@
     }
     /*Footer**********************/
     footer p,
-    address, table {
+    address {
         font-size: 14px;
     }
 }

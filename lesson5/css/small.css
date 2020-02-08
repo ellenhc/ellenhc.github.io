@@ -135,16 +135,13 @@ body {
     background-image: linear-gradient(to bottom right, #FFAA32, #FFD82D);
     opacity: 0.9;
     border: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 13px;
 }
 
 .weather-summary h3, .weather-summary p {
     margin: 0;
     text-align: right;
   }
-
-.first-sec table {
-    font-size: 13px;
-}
 
 .conditionsLeft {
     font-weight: bold;
@@ -161,6 +158,9 @@ body {
 
 .third-sec {
     background-color: #E6E6E6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 article {
@@ -195,6 +195,7 @@ article .author {
 
 address {
     padding-bottom: 0.5em;
+    font-size: 13px;
 }
 
 

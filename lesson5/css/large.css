@@ -34,9 +34,10 @@
         top: 1.5em;
         left: 1.5em;
         padding: 0.5rem;
+        font-size: 15px;
     }
     footer p,
-    address, table {
+    address {
         font-size: 15px;
     }
 }
