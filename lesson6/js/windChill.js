@@ -2,7 +2,7 @@
 
 //Input requirements: "Wind Chill Temperature is officially defined for temperatures at or below 10 °C (50 °F) and wind speeds above 4.8 kph (3.0 mph)."
 
-document.getElementById("windSpeedId").addEventListener("load", getWindChill);
+window.onload=getWindChill;
 
 function getWindChill(){
     let tString = document.getElementById("highTempId").value;
