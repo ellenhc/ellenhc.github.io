@@ -39,7 +39,10 @@
         <main>
             <h2 class="town-name">Preston, Idaho</h2>
             <section class="first-sec">
-                <img src="images/clouds-1431822.jpg" alt="hero image of clouds in a blue sky">
+                <picture>
+                    <img src="images/clouds-1431822.jpg" alt="hero image of clouds in a blue sky">
+                    srcset = ;
+                </picture>
                 <div class="weather-summary">
                     <h3>Weather Summary</h3>
                     <table>
@@ -49,11 +52,11 @@
                        </tr>
                        <tr>
                          <td class="conditionsLeft">High:</td>
-                         <td class="conditionsRight">42&#176;F</td>
+                         <td class="conditionsRight"><span id="highTempId">42</span>>&#176;F</td>
                        </tr>
                        <tr>
                          <td class="conditionsLeft">Wind Chill:</td>
-                         <td class="conditionsRight">&#176;F</td>
+                         <td class="conditionsRight"><span id="windChillId"></span>&#176;F</td>
                        </tr>
                        <tr>
                          <td class="conditionsLeft">Humidity:</td>
@@ -61,7 +64,7 @@
                        </tr>
                        <tr>
                          <td class="conditionsLeft">Wind Speed:</td>
-                         <td class="conditionsRight">10 mph</td>
+                         <td class="conditionsRight"><span id="windSpeedId">10</span>mph</td>
                        </tr>
                        </table>
                 </div>
@@ -136,6 +139,7 @@
         </footer>
         <script src="js/currentDate.js"></script>
         <script src="js/responsiveNav.js"></script>
+        <script src="js/windChill.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
         <script>
             WebFont.load({
