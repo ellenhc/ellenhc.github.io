@@ -5,9 +5,9 @@
 window.onload=getWindChill;
 
 function getWindChill(){
-    let tString = document.getElementById("highTempId").value;
+    let tString = document.getElementById("highTempId").innerHTML;
     let t = Number(tString);
-    let sString = document.getElementById("windSpeedId").value;
+    let sString = document.getElementById("windSpeedId").innerHTML;
     let s = Number(sString);
     if (t <= 50 && s > 3) {
         let windChill = 35.74 + (0.6215 * t) - (35.75 * (s ** 0.16)) + (0.4275 * t * (s ** 0.16));
