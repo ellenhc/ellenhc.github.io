@@ -34,21 +34,16 @@
     .column {
         flex: 1 1 100%;
         background-color: #e6e6e6;
-        /* border-top: 1px solid rgba(0, 0, 0, 0.1);*/
-        /*border-bottom: 1px solid rgba(0, 0, 0, 0.1);*/
         border-left: 1px solid #f7f7f7;
         font-size: 14px;
         text-align: center;
     }
-    /* .forecast-table div:last-child {
-        border-right: 1px solid rgba(0, 0, 0, 0.1);
-    }*/
     .day {
         display: block;
         padding: 0.25em;
         font-size: 15px;
         border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-        background-color: #15AADC;
+        background-color: #0e769a;
         color: white;
     }
     .forecast-table img {
@@ -61,7 +56,7 @@
     /*Third Section aka article**********************/
     .third-sec {
         display: block;
-      }
+    }
     .third-sec img {
         float: right;
         margin: 1em 1em 0.5em 0.5em;
