@@ -32,10 +32,6 @@ header img {
     height: auto;
 }
 
-body {
-    font-display: swap/*ensures text remains visible during webfont load*/
-}
-
 
 /*Navigation****************************************************/
 
