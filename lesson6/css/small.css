@@ -1,4 +1,5 @@
 /*@import url('https://fonts.googleapis.com/css?family=Comfortaa|Montserrat&display=swap');*/
+
 header {
     width: 100%;
 }
@@ -29,6 +30,10 @@ header {
 header img {
     width: 80px;
     height: auto;
+}
+
+body {
+    font-display: swap/*ensures text remains visible during webfont load*/
 }
 
 
@@ -138,14 +143,16 @@ body {
     font-size: 13px;
 }
 
-.weather-summary h3, .weather-summary p {
+.weather-summary h3,
+.weather-summary p {
     margin: 0;
     text-align: right;
-  }
+}
 
 .conditionsLeft {
     font-weight: bold;
-  }
+}
+
 
 /*Section 2**********************************/
 
@@ -181,7 +188,7 @@ article .author {
     max-width: 100%;
     margin-bottom: -1em;
     margin-top: 1em;
-  }
+}
 
 
 /*Section 4**********************************/
@@ -204,9 +211,10 @@ address {
     font-size: 13px;
 }
 
-.social-links a{
+.social-links a {
     padding: 0.1em;
-  }
+}
+
 
 /*Footer************************************/
 
