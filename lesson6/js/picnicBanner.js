@@ -1,4 +1,8 @@
 //Displays banner if it's Friday
+
+let currentTime = new Date();
+let currentDayNumber = currentTime.getDay();
+
 if (currentDayNumber == 5) {
     document.getElementById("banner").style.backgroundColor = "#FFD82D";
     document.getElementById("banner").style.textAlign = "center";
