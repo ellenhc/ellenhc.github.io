@@ -1,9 +1,9 @@
 //Displays banner if it's Friday
 
-let currentTime = new Date();
-let currentDayNumber = currentTime.getDay();
+let currentDate = new Date();
+let currentWeekdayNumber = currentDate.getDay();
 
-if (currentDayNumber == 5) {
+if (currentWeekdayNumber == 5) {
     document.getElementById("banner").style.backgroundColor = "#FFD82D";
     document.getElementById("banner").style.textAlign = "center";
     document.getElementById("banner").style.padding = "0.75em";
