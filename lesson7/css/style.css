@@ -14,10 +14,3 @@ img {
 img[data-src] {
     filter: blur(0.2em);
   }
-
-  footer {
-    background-color: #0e769a;
-    color: white;
-    text-align: center;
-    padding: 1em;
-  }
