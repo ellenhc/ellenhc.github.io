@@ -1,0 +1,18 @@
+@media only screen and (min-width: 32.5em) {
+    header img {
+        width: 100px;
+        height: auto;
+    }
+    .header-text h1 {
+        font-size: 2.5rem;
+    }
+    .header-text p {
+        letter-spacing: 1.1pt;
+        font-size: larger;
+    }
+    /*Footer**********************/
+    footer p,
+    address {
+        font-size: 14px;
+    }
+}
