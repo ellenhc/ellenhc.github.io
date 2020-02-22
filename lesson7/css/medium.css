@@ -10,7 +10,11 @@
         letter-spacing: 1.1pt;
         font-size: larger;
     }
-    /*Footer**********************/
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 1em;
+    }
     footer p,
     address {
         font-size: 14px;

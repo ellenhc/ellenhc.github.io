@@ -25,6 +25,11 @@
     .navigation li:first-child {
         display: none;
     }
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 1em;
+    }
     footer p,
     address {
         font-size: 15px;

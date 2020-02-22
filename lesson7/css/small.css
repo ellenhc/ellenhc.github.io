@@ -96,6 +96,11 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.grid-container {
+    display: block;
+    margin: 20px 2%;
+}
+
 
 /*Footer************************************/
 
