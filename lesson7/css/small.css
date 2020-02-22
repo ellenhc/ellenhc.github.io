@@ -96,9 +96,17 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+h1 {
+    text-align: center;
+}
+
 .grid-container {
     display: block;
     margin: 20px 2%;
+}
+
+.grid-container picture img {
+    width: 100%;
 }
 
 
