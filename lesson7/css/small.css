@@ -101,8 +101,9 @@ h1 {
 }
 
 .grid-container {
-    display: block;
-    margin: 0 2% 2% 2%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
 }
 
 .grid-container picture img {
