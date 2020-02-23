@@ -2,35 +2,46 @@
     header img {
         width: 100%;
     }
+
     .header-text h1 {
         font-size: 3rem;
     }
+
     .header-text p {
         letter-spacing: 1.5pt;
     }
+
     .navigation {
         display: flex;
     }
+
     .navigation a {
         border: none;
         border-right: 1px solid rgba(0, 0, 0, 0.1);
     }
+
     nav ul li:last-child a {
         border-right: none;
     }
+
     .navigation li {
         display: block;
         flex: 1 1 100%;
     }
+
     .navigation li:first-child {
         display: none;
     }
+
     .grid-container {
         grid-template-columns: 1fr 1fr 1fr;
     }
+
     picture:hover {
         box-shadow: 0 0 50px #333;
     }
+
+    .caption,
     footer p,
     address {
         font-size: 15px;
