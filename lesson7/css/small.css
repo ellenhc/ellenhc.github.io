@@ -108,6 +108,13 @@ h1 {
     margin-right: 1em;
 }
 
+
+/*Removing default figure CSS settings*/
+
+figure {
+    margin: 0;
+}
+
 .grid-container figure img {
     width: 100%;
 }
