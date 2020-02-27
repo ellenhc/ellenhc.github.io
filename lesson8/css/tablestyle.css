@@ -42,7 +42,7 @@ tr:nth-child(odd) {
 
 table .table-title {
     font-size: larger;
-    font-weight: thicker;
+    font-weight: 900;
 }
 
 table .table-footer {
