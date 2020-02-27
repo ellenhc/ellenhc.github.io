@@ -1,8 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 
+h1 {
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+}
+
+body {
+    margin: 0 auto;
+}
+
 table {
     font-family: "Ubuntu", sans-serif;
     text-align: center;
+    box-shadow:  10px 10px 10px rgb(98, 140, 166, 0.8);
 }
 
 table,
@@ -12,11 +22,13 @@ td {
     border-collapse: collapse;
 }
 
-td, th {
+td,
+th {
     padding: 0.25em 0.5em 0.25em 0.5em;
 }
 
-thead tr th, tfoot tr th {
+thead tr th,
+tfoot tr th {
     background-color: #7fb9c2;
     color: black;
 }
@@ -31,7 +43,7 @@ tr:nth-child(odd) {
     background-color: #E7FFED;
 }
 
-tbody tr{
+tbody tr {
     background-color: #E7F0ED;
 }
 
@@ -39,7 +51,7 @@ tbody tr{
     font-style: italic;
 }
 
-thead th tr{
+thead th tr {
     font-size: larger;
     font-weight: 900;
 }
