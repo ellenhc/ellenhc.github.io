@@ -5,14 +5,11 @@ h1 {
     text-align: center;
 }
 
-body {
-    margin: 0 auto;
-}
-
 table {
     font-family: "Ubuntu", sans-serif;
     text-align: center;
     box-shadow:  10px 10px 10px rgb(98, 140, 166, 0.8);
+    margin: auto;
 }
 
 table,
@@ -51,8 +48,8 @@ tbody tr {
     font-style: italic;
 }
 
-thead th tr {
-    font-size: 1.25em;
+thead tr th {
+    font-size: 1.5em;
     font-weight: 900;
 }
 
@@ -60,4 +57,12 @@ tfoot tr th {
     font-size: 0.75em;
     font-weight: normal;
     padding: 0.5em;
+}
+
+th {
+    font-size: 1.1em;
+}
+
+footer {
+    text-align: center;
 }
