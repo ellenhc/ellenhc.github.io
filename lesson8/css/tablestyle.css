@@ -5,10 +5,48 @@ table {
     text-align: center;
 }
 
-table th {
-    background-color: #628ca6;
+table,
+th,
+td {
+    border: 1px solid LightGray;
+    border-collapse: collapse;
 }
 
-table .table-title, table .table-footer {
+td, th {
+    padding: 0.25em 0.5em 0.25em 0.5em;
+}
+
+table th,
+#nov-sales-goal {
+    background-color: #628ca6;
+    color: white;
+}
+
+table .table-title,
+table .table-footer {
     background-color: #7fb9c2;
+    color: black;
+}
+
+tr:nth-child(even) {
+    background-color: #E7FFED;
+}
+
+tr:nth-child(odd) {
+    background-color: #E7F0ED;
+}
+
+.italicize {
+    font-style: italic;
+}
+
+table .table-title {
+    font-size: larger;
+    font-weight: thicker;
+}
+
+table .table-footer {
+    font-size: 11px;
+    font-weight: normal;
+    padding: 0.5em;
 }
