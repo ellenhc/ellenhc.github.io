@@ -16,23 +16,22 @@ td, th {
     padding: 0.25em 0.5em 0.25em 0.5em;
 }
 
+thead tr th, tfoot tr th {
+    background-color: #7fb9c2;
+    color: black;
+}
+
 table th,
 #nov-sales-goal {
     background-color: #628ca6;
     color: white;
 }
 
-table .table-title,
-table .table-footer {
-    background-color: #7fb9c2;
-    color: black;
-}
-
-tr:nth-child(even) {
+tr:nth-child(odd) {
     background-color: #E7FFED;
 }
 
-tr:nth-child(odd) {
+tbody tr{
     background-color: #E7F0ED;
 }
 
@@ -40,12 +39,12 @@ tr:nth-child(odd) {
     font-style: italic;
 }
 
-table .table-title {
+thead th tr{
     font-size: larger;
     font-weight: 900;
 }
 
-table .table-footer {
+tfoot tr th {
     font-size: 11px;
     font-weight: normal;
     padding: 0.5em;
