@@ -2,4 +2,13 @@
 
 table {
     font-family: "Ubuntu", sans-serif;
+    text-align: center;
+}
+
+table th {
+    background-color: #628ca6;
+}
+
+table .table-title, table .table-footer {
+    background-color: #7fb9c2;
 }
