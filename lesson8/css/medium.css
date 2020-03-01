@@ -13,6 +13,10 @@
         font-size: larger;
     }
 
+    form label.sbs {
+        padding: 0.4rem 0;
+    }
+
     footer p,
     address {
         font-size: 14px;
