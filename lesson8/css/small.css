@@ -121,12 +121,16 @@ form fieldset legend {
     padding: 0.5rem;
 }
 
-form label.top, form div {
+form label.top,
+form div {
     display: block;
     padding-top: 1rem;
     font-size: 0.9rem;
 }
-form label.top input, form label.top select, form label.top textarea {
+
+form label.top input,
+form label.top select,
+form label.top textarea {
     display: block;
     border: solid 1px #A3A3A3;
     border-radius: 4px;
@@ -161,6 +165,10 @@ form label.top input:required {
 
 form label.top input:required:valid {
     border-left: #0e769a solid 0.375em;
+}
+
+#ratingvalue {
+	margin: 0 15px;
 }
 
 /*Footer************************************/
