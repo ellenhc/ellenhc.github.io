@@ -42,7 +42,7 @@
                 <fieldset>
                     <legend>Contact Information</legend>
                     <label class="top">Full Name*
-                        <input type="text" name="fullName" min="5" required>
+                        <input type="text" name="fullName" min="5" pattern="[A-Za-z ]{5,}" required>
                     </label>
 
                     <label class="top">Email
@@ -74,8 +74,11 @@
                     </label>
 
                     <label class="top">Storm Severity (1-10)
-                        <input type="range" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-                        <span id="ratingvalue">5</span>
+                        <div class="ratingRange">
+                            <input type="range" value="5" min="1" max="10" step="1" list="tickmarks"
+                                oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                            <span id="ratingvalue">5</span>
+                        </div>
                     </label>
 
                     <datalist id="tickmarks">
