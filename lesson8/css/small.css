@@ -172,12 +172,7 @@ form label.top input:required:valid {
 }
 
 #ratingvalue {
-	margin: 0 15px;
-}
-
-form label .ratingRange input{
-    display: inline;
-    border: none;
+    margin: 0 15px;
 }
 
 /*Footer************************************/
