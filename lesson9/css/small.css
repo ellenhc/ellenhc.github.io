@@ -1,0 +1,118 @@
+header {
+    width: 100%;
+}
+
+header,
+footer {
+    background-color: #0e769a;
+    color: white;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-text h1 {
+    font-size: 1.6rem;
+    margin-bottom: -0.4em;
+}
+
+.header-text {
+    text-align: left;
+    margin-left: 0.5em;
+}
+
+header img {
+    width: 80px;
+    height: auto;
+}
+
+
+/*Navigation****************************************************/
+
+nav {
+    background-color: #e6e6e6;
+    max-width: 100%;
+    margin: 0 auto;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.navigation {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav>ul {
+    margin: 0
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    color: #1e1e1e;
+    padding: 0.8rem 2%;
+    text-align: center;
+    text-decoration: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.navigation .active {
+    background-color: rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+}
+
+.navigation a:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+}
+
+.responsive li {
+    display: block;
+}
+
+
+/*Body****************************************************/
+
+.content {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+
+/*Footer************************************/
+
+footer p {
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+}
+
+footer p:first-child {
+    padding-top: 10px;
+}
+
+footer p:last-child {
+    padding-bottom: 10px;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: #ffaa32;
+}
+
+footer a:link {
+    text-decoration: none;
+}

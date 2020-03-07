@@ -1,0 +1,37 @@
+/*Desktop + Large Views***********************/
+
+@media only screen and (min-width: 60em) {
+    header img {
+        width: 100%;
+    }
+    .header-text h1 {
+        font-size: 3rem;
+    }
+    .header-text p {
+        letter-spacing: 1.5pt;
+    }
+    .navigation {
+        display: flex;
+    }
+    .navigation a {
+        border: none;
+        border-right: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    nav ul li:last-child a {
+        border-right: none;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+    .content {
+        font-size: 17px;
+    }
+    footer p,
+    address {
+        font-size: 15px;
+    }
+}
