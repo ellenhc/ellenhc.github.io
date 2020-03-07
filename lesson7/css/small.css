@@ -83,6 +83,11 @@ nav>ul {
 
 /*Body**************************************/
 
+.content {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
 h1,
 h2,
 h3,
