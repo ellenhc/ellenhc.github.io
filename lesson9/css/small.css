@@ -81,7 +81,7 @@ nav>ul {
 }
 
 
-/*Body****************************************************/
+/*Body****************************************/
 
 .content {
     max-width: 960px;
@@ -102,6 +102,15 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     color: #1e1e1e;
+}
+
+
+/*Main***************************************/
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0.5em;
 }
 
 

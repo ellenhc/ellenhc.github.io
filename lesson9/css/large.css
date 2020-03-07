@@ -30,6 +30,9 @@
     .content {
         font-size: 17px;
     }
+    .cards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
     footer p,
     address {
         font-size: 15px;
