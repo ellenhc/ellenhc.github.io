@@ -15,8 +15,12 @@
     .content {
         font-size: 16px;
     }
-    .cards {
-        grid-template-columns: 1fr 1fr;
+    .cards div {
+        display: flex;
+        flex-direction: row;
+    }
+    .cards div:nth-child(odd) {
+        flex-direction: row-reverse;
     }
     /*Footer**********************/
     footer p,

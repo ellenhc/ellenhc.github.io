@@ -32,6 +32,10 @@
     }
     .cards {
         grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    .cards div {
+        display: block;
     }
     footer p,
     address {

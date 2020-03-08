@@ -110,7 +110,21 @@ body {
 .cards {
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 0.5em;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 1em;
+    padding: 1em;
+}
+
+.cards div {
+    background-color: #E6E6E6;
+}
+
+.cards div h2,
+.cards div h4 {
+    background-color: #0e769a;
+    color: white;
+    margin: 0;
+    text-align: center;
 }
 
 
