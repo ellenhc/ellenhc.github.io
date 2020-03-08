@@ -32,6 +32,10 @@
     }
     .brief {
         flex-wrap: nowrap;
+        text-align: left;
+    }
+    .brief img {
+        padding: 1em;
     }
     .cards {
         grid-template-columns: 1fr 1fr 1fr;

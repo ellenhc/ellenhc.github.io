@@ -111,10 +111,11 @@ body {
     display: block;
     background-color: #E6E6E6;
     margin-top: 1em;
+    text-align: center;
 }
 
 .brief img {
-    padding: 1em;
+    padding: 1em 1em 0 1em;
 }
 
 .brief>div {

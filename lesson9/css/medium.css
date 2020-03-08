@@ -19,6 +19,9 @@
         display: flex;
         flex-wrap: wrap;
     }
+    .brief img {
+        margin: auto;
+    }
     .cards section {
         display: flex;
         flex-direction: row;
