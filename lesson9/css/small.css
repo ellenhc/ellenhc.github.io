@@ -107,20 +107,35 @@ body {
 
 /*Main***************************************/
 
+.brief {
+    display: block;
+    background-color: #E6E6E6;
+    margin-top: 1em;
+}
+
+.brief img {
+    padding: 1em;
+}
+
+.brief>div {
+    padding: 1em;
+}
+
 .cards {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 1em;
     padding: 1em;
+    justify-items: center;
 }
 
-.cards div {
+.cards section {
     background-color: #E6E6E6;
 }
 
-.cards div h2,
-.cards div h4 {
+.cards section h2,
+.cards section h5 {
     background-color: #0e769a;
     color: white;
     margin: 0;
@@ -129,6 +144,28 @@ body {
 
 
 /*Footer************************************/
+
+.fourth-sec {
+    background-color: #E6E6E6;
+    padding: 0.5em;
+}
+
+.map {
+    display: none;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+address {
+    padding-bottom: 0.5em;
+    font-size: 13px;
+}
+
+.social-links a {
+    padding: 0.1em;
+}
 
 footer p {
     font-size: 13px;

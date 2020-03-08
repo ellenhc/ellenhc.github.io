@@ -30,11 +30,14 @@
     .content {
         font-size: 17px;
     }
+    .brief {
+        flex-wrap: nowrap;
+    }
     .cards {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
     }
-    .cards div {
+    .cards section {
         display: block;
     }
     footer p,

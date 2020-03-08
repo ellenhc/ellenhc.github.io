@@ -15,14 +15,31 @@
     .content {
         font-size: 16px;
     }
-    .cards div {
+    .brief {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .cards section {
         display: flex;
         flex-direction: row;
     }
-    .cards div:nth-child(odd) {
+    .cards section:nth-child(odd) {
         flex-direction: row-reverse;
     }
     /*Footer**********************/
+    .fourth-sec {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1em;
+    }
+    .map {
+        display: block;
+        padding-right: 1em;
+    }
+    .contact-info {
+        text-align: left;
+    }
     footer p,
     address {
         font-size: 14px;
