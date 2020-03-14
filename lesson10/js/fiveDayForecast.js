@@ -10,15 +10,18 @@ for (i = currentDayNumber; i < endDay; i++) {
     x[j].innerHTML = nextDay;
 }
 
-/*const apiURL = "http://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=de0b9a3291e852137733bf4abab06ac0&units=imperial";
+const apiForecastURL = "http://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=de0b9a3291e852137733bf4abab06ac0&units=imperial";
 
-fetch(apiURL)
+fetch(apiForecastURL)
     .then((response) => response.json())
     .then((jsObject) => {
-        //document.getElementById('current-temp').textContent = jsObject.main.temp;
-        //const imagesrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
-        //const desc = jsObject.weather[0].description; // note how we reference the weather array
-        //document.getElementById('imagesrc').textContent = imagesrc; // informational specification only
-        //document.getElementById('icon').setAttribute('src', imagesrc); // focus on the setAttribute() method
-        //document.getElementById('icon').setAttribute('alt', desc);
-    });*/
+        const fiveDayForecast = jsObject.list.filter(x => x.dt_txt.includes('18:00:00'));
+        for (let i = 0; i < fiveDayForecast.length; i++) {
+            document.getElementById(`temp${i+1}`).textContent = fiveDayForecast[i].main.temp;
+            const iconName = fiveDayForecast[i].weather[0].icon;
+            const iconsrc = `https://openweathermap.org/img/w/${iconName}.png`;
+            const altText = fiveDayForecast[i].weather[0].description;
+            document.getElementById(`icon-${i+1}`).setAttribute('src', iconsrc);
+            document.getElementById(`icon-${i+1}`).setAttribute('alt', altText)
+        }
+    });
