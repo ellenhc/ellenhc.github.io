@@ -10,7 +10,7 @@ for (i = currentDayNumber; i < endDay; i++) {
     x[j].innerHTML = nextDay;
 }
 
-const apiForecastURL = "http://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=de0b9a3291e852137733bf4abab06ac0&units=imperial";
+const apiForecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=de0b9a3291e852137733bf4abab06ac0&units=imperial";
 
 fetch(apiForecastURL)
     .then((response) => response.json())
