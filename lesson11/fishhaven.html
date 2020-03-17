@@ -38,6 +38,38 @@
     <div class="content">
         <main>
             <h2 class="centered">Fish Haven, Idaho</h2>
+            <section class="first-sec">
+                <picture>
+                    <source media="(min-width: 32.5em) and (max-width: 59.99em)" srcset="images/medium.jpg">
+                    <source media="(min-width: 60em)" srcset="images/large.jpg">
+                    <img src="images/small.jpg" alt="hero image of clouds in a blue sky">
+                </picture>
+                <div class="weather-summary">
+                    <h3>Weather Summary</h3>
+                    <table>
+                        <tr>
+                            <td class="conditionsLeft">Currently:</td>
+                            <td class="conditionsRight"><span id="currentlyId"></span></td>
+                        </tr>
+                        <tr>
+                            <td class="conditionsLeft">High:</td>
+                            <td class="conditionsRight"><span id="highTempId"></span>&#176;F</td>
+                        </tr>
+                        <tr>
+                            <td class="conditionsLeft">Wind Chill:</td>
+                            <td class="conditionsRight"><span id="windChillId"></span>&#176;F</td>
+                        </tr>
+                        <tr>
+                            <td class="conditionsLeft">Humidity:</td>
+                            <td class="conditionsRight"><span id="humidityId"></span>%</td>
+                        </tr>
+                        <tr>
+                            <td class="conditionsLeft">Wind Speed:</td>
+                            <td class="conditionsRight"><span id="windSpeedId"></span>mph</td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
         </main>
         <footer>
             <p>&copy; <span id="currentYearId"></span>, Life Weather | <a href="https://ellenhc.github.io/">Ellen
@@ -47,8 +79,8 @@
         <script src="js/picnicBanner.js"></script>
         <script src="js/responsiveNav.js"></script>
         <script src="js/currentDate.js"></script>
-        <script src="js/weatherSummary.js"></script>
-        <script src="js/fiveDayForecast.js"></script>
+        <script src="js/fishHavenWeatherSummary.js"></script>
+        <script src="js/fishHavenFiveDayForecast.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
         <script>
             WebFont.load({
