@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ellen Carlson | CIT 230</title>
+    <meta name="description" content="Image gallery created by Ellen Carlson in CIT 230: Web Frontend Development at BYUI-Idaho">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/life-weather-without-text2.png">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <header>
+        <a href="#"><img src="images/life-weather-without-text2.png" alt="Life Weather logo"></a>
+        <div class="header-text">
+            <h1>Life Weather</h1>
+            <p>The go-to weather people</p>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="sodasprings.html">Soda Springs</a></li>
+            <li><a href="fishhaven.html">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a class="active" href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <main>
+            <h1>Weather Gallery</h1>
+            <div class="grid-container">
+                <figure>
+                    <img src="images/placeholder-600x400.jpg" data-src="images/large/bus-in-snow-600.jpg" alt="Yellow city bus parked while snow falls">
+                    <div class="caption">Bus in the snow</div>
+                </figure>
+                <figure>
+                    <img src="images/placeholder-600x400.jpg" data-src="images/large/clouds-over-mountain-600.jpg" alt="A few clouds in a deep blue sky over a mountain">
+                    <div class="caption">Clouds over the mountain</div>
+                </figure>
+                <figure>
+                    <img src="images/placeholder-600x400.jpg" data-src="images/large/foggy-trees-600.jpg" alt="A forest of pine trees covered in fog">
+                    <div class="caption">Fog on the mountains</div>
+                </figure>
+                <figure>
+                    <img src="images/placeholder-600x400.jpg" data-src="images/large/rainbow-over-lake-600.jpg" alt="A single rainbow over a lake">
+                    <div class="caption">Rainbow over Glendale Reservoir</div>
+                </figure>
+                <figure>
+                    <img src="images/placeholder-600x400.jpg" data-src="images/large/lightning-in-field-600.jpg" alt="A storm with a single bolt of lightning over a field">
+                    <div class="caption">Lightning strike near Preston</div>
+                </figure>
+                <figure>
+                    <img src="images/placeholder-600x400.jpg" data-src="images/large/partly-sunny-mountain-view-600.jpg" alt="Partly sunny sky over a mountain">
+                    <div class="caption">Partly sunny weather</div>
+                </figure>
+                <figure>
+                    <img src="images/placeholder-600x400.jpg" data-src="images/large/rainbow-over-mountains-600.jpg" alt="A rainbow visible over a forested mountain peak">
+                    <div class="caption">Rainbow near Old Baldy Peak</div>
+                </figure>
+                <figure>
+                    <img src="images/placeholder-600x400.jpg" data-src="images/large/snowy-trees-600.jpg" alt="Snow covered forest of pine trees">
+                    <div class="caption">Snow covered pines</div>
+                </figure>
+                <figure>
+                    <img src="images/placeholder-600x400.jpg" data-src="images/large/umbrella-in-rain-600.jpg" alt="Red umbrella dripping from rain">
+                    <div class="caption">Rain in downtown</div>
+                </figure>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; <span id="currentYearId"></span>, Life Weather | <a href="https://ellenhc.github.io/">Ellen Carlson</a> | <a href="#">Terms of Use</a></p>
+            <p><span id="currentTimeId"></span></p>
+        </footer>
+    </div>
+
+    <script src="js/lazyLoad.js"></script>
+    <script src="js/currentDate.js"></script>
+    <script src="js/responsiveNav.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Comfortaa', 'Montserrat']
+            }
+        });
+    </script>
+</body>
+
+</html>
