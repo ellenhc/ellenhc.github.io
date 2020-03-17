@@ -1,0 +1,109 @@
+/*Tablet and Medium Views************************/
+
+@media only screen and (min-width: 32.5em) {
+    header img {
+        width: 100px;
+        height: auto;
+    }
+    .header-text h1 {
+        font-size: 2.5rem;
+    }
+    .header-text p {
+        letter-spacing: 1.1pt;
+        font-size: larger;
+    }
+    .content {
+        font-size: 16px;
+    }
+    /*Index.html******************************/
+    .brief {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .brief img {
+        margin: auto;
+    }
+    .cards section {
+        display: flex;
+        flex-direction: row;
+    }
+    .cards section:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+    /*First Section aka Hero Image + Weather Summary**********************/
+    .weather-summary {
+        top: 1.25em;
+        left: 1.25em;
+        padding: 0.4em;
+        font-size: 14px;
+    }
+    /*Second Section aka 5 Day Forecast**********************/
+    .second-sec {
+        display: block;
+        text-align: center;
+    }
+    .forecast-table {
+        display: flex;
+        flex-direction: row;
+    }
+    .column {
+        flex: 1 1 100%;
+        background-color: #e6e6e6;
+        border-left: 1px solid #f7f7f7;
+        font-size: 14px;
+        text-align: center;
+    }
+    .day {
+        display: block;
+        padding: 0.25em;
+        font-size: 15px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        background-color: #0e769a;
+        color: white;
+    }
+    .forecast-table img {
+        padding: 5px;
+    }
+    .temperature {
+        display: block;
+        padding: 0 5px 5px;
+    }
+    /*Third Section aka article**********************/
+    .third-sec {
+        display: block;
+    }
+    .third-sec img {
+        float: right;
+        margin: 1em 1em 0.5em 0.5em;
+    }
+    /*Fourth Section aka contact**********************/
+    .fourth-sec {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1em;
+    }
+    .map {
+        display: block;
+        padding-right: 1em;
+    }
+    .contact-info {
+        text-align: left;
+    }
+    /*Form**********************/
+    form label.sbs {
+        padding: 0.4rem 0;
+    }
+    /*Gallery*********************/
+    .grid-container {
+        grid-template-columns: 1fr 1fr;
+    }
+    .caption {
+        font-size: 14px;
+    }
+    /*Footer**********************/
+    footer p,
+    address {
+        font-size: 14px;
+    }
+}
