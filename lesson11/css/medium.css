@@ -22,6 +22,10 @@
     }
     .brief img {
         margin: auto;
+        width: 380px;
+    }
+    .brief article {
+        text-align: center;
     }
     .cards section {
         display: flex;
@@ -70,11 +74,23 @@
     }
     /*Third Section aka article**********************/
     .third-sec {
-        display: block;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: 1;
+    }
+    .third-sec article {
+        text-align: left;
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .third-sec article h3 {
+        margin-top: 0;
     }
     .third-sec img {
         float: right;
         margin: 1em 1em 0.5em 0.5em;
+        grid-column: 2;
+        grid-row: 1;
     }
     /*Fourth Section aka contact**********************/
     .fourth-sec {
