@@ -4,14 +4,14 @@ fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
         document.getElementById('currentlyId').textContent = jsObject.weather[0].description;
-        document.getElementById('highTempId').textContent = jsObject.main.temp_max;
+        document.getElementById('tempId').textContent = jsObject.main.temp;
         document.getElementById('humidityId').textContent = jsObject.main.humidity;
         document.getElementById('windSpeedId').textContent = jsObject.wind.speed;
         document.getElementById('windChillId').textContent = getWindChill();
     });
 
 function getWindChill() {
-    let tString = document.getElementById("highTempId").innerHTML;
+    let tString = document.getElementById("tempId").innerHTML;
     let t = Number(tString);
     let sString = document.getElementById("windSpeedId").innerHTML;
     let s = Number(sString);
