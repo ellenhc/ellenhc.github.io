@@ -1,6 +1,6 @@
 //Supplies the dates for five day forecast
 let currentDay = new Date();
-let currentDayNumber = currentDay.getDay();
+let currentDayNumber = currentDay.getDay() + 1;
 let endDay = currentDayNumber + 5;
 for (i = currentDayNumber; i < endDay; i++) {
     let nextDayNumber = i % 7;
