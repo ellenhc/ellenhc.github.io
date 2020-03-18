@@ -76,7 +76,7 @@
     .third-sec {
         display: grid;
         grid-template-columns: auto auto;
-        grid-template-rows: 1;
+        grid-template-rows: auto;
     }
     .third-sec article {
         text-align: left;
