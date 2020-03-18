@@ -4,61 +4,78 @@
     header img {
         width: 100%;
     }
+
     .header-text h1 {
         font-size: 3rem;
     }
+
     .header-text p {
         letter-spacing: 1.5pt;
     }
+
     .navigation {
         display: flex;
     }
+
     .navigation a {
         border: none;
         border-right: 1px solid rgba(0, 0, 0, 0.1);
     }
+
     nav ul li:last-child a {
         border-right: none;
     }
+
     .navigation li {
         display: block;
         flex: 1 1 100%;
     }
+
     .navigation li:first-child {
         display: none;
     }
+
     .content {
         font-size: 17px;
     }
+
     .brief {
         flex-wrap: nowrap;
         text-align: left;
     }
+
     .brief img {
         padding: 1em;
     }
+
     .cards {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
     }
+
     .cards section {
         display: block;
     }
+
     .weather-summary {
         top: 1.5em;
         left: 1.5em;
         padding: 0.5rem;
         font-size: 15px;
     }
+
     .grid-container {
         grid-template-columns: 1fr 1fr 1fr;
     }
+
     figure:hover {
         box-shadow: 0 0 50px #333;
     }
+
     .caption {
         font-size: 15px;
     }
+
     footer p,
     address {
         font-size: 15px;
