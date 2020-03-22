@@ -123,4 +123,10 @@
     address {
         font-size: 14px;
     }
+    footer a:hover {
+        color: #ffaa32;
+    }
+    footer a:link {
+        text-decoration: none;
+    }
 }

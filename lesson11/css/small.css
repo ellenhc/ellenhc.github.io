@@ -299,6 +299,7 @@ form fieldset {
     border: solid #d9d9d9;
     margin-bottom: 0.5em;
     border-radius: 5px;
+    width: 100%;
 }
 
 form fieldset legend {
@@ -410,12 +411,4 @@ footer p:last-child {
 
 footer a {
     color: white;
-}
-
-footer a:hover {
-    color: #ffaa32;
-}
-
-footer a:link {
-    text-decoration: none;
 }
