@@ -35,6 +35,9 @@
         flex-direction: row-reverse;
     }
     /*First Section aka Hero Image + Weather Summary**********************/
+    .first-sec {
+        margin-bottom: 1em;
+    }
     .weather-summary {
         top: 1.25em;
         left: 1.25em;

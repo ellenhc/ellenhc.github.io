@@ -153,7 +153,6 @@ body {
 
 /*Town Page Section 1**********************************/
 
-.first-sec,
 .second-sec,
 .third-sec {
     margin-top: 1em;
@@ -161,6 +160,8 @@ body {
 }
 
 .first-sec {
+    margin-top: 1em;
+    margin-bottom: 1.5em;
     position: relative;
 }
 
@@ -194,6 +195,14 @@ body {
 
 .second-sec {
     display: none;
+}
+
+.events {
+    background-color: #E6E6E6;
+}
+
+.events .eventDetails {
+    text-align: center;
 }
 
 
