@@ -201,8 +201,19 @@ body {
     background-color: #E6E6E6;
 }
 
+.events h3 {
+    padding-top: 1em;
+    margin-bottom: 0;
+}
+
+.events hr {
+    width: 30%;
+    border: 1px solid #0e769a;
+}
+
 .events .eventDetails {
     text-align: center;
+    padding-bottom: 1em;
 }
 
 
