@@ -25,23 +25,34 @@ header nav .navigation li {
 
 header nav .navigation li a {
     text-decoration: none;
-    padding: 1em;
+    padding: 1rem;
     display: block;
-    color: #40494e;
+    color: #02070a;
 }
 
-header nav .navigation li a:hover {
-    color: #B7B440;
+header nav .navigation li a:hover,
+.logo:hover {
+    color: #113448;
 }
 
 header nav .responsive li {
     display: block;
 }
 
+.logo {
+    font-family: 'Permanent Marker', cursive;
+    text-decoration: none;
+    color: #02070a;
+}
+
+
+/*Body***************/
+
 body {
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
     background-color: #fdfefe;
+    color: #02070a
 }
 
 h1,
@@ -50,88 +61,204 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Baloo Da 2', cursive;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0.5rem;
 }
 
-.logo {
-    font-family: 'Permanent Marker', cursive;
-    text-decoration: none;
-    color: #40494e;
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.hide {
+    display: none;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 
 /*Index**************/
 
 .hero {
-    background-color: #e9f0f9;
-    width: 100%;
+    width: 100vw;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero.jpg");
+    background-position: center;
+    background-size: cover;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2%;
 }
 
 .hero-text {
     text-align: center;
-}
-
-.hero-text h1 {
-    margin: 0;
-}
-
-.hero-text p {
-    font-size: 1em;
-}
-
-.hero img {
-    border-radius: 50%;
-    width: 100%;
+    color: white;
+    max-width: 60%;
+    margin: auto;
 }
 
 .hero button {
-    margin-bottom: 2%;
-    background-image: linear-gradient(to right, #adc7e9, #85acde);
+    background-color: transparent;
+    background-image: none;
     color: white;
-    border: none;
-    padding: 2%;
-    border-radius: 3px;
+    border: solid 3px white;
+    padding: 1% 2% 1% 2%;
+    border-radius: 5px;
+    font-weight: bold;
 }
 
 .hero button:hover {
-    opacity: 70%;
+    background-color: white;
+    color: black;
+    transition: all 0.3s;
+}
+
+
+/*About**************/
+
+.about {
+    text-align: left;
+    padding: 2%;
+}
+
+.about-weather {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#currentlyId,
+#tempId,
+#windChillId,
+#humidityId,
+#windSpeedId {
+    font-size: 60px;
+    color: #113448;
+}
+
+
+/*Services**************/
+
+.services {
+    text-align: center;
+    padding: 2%;
+    max-width: 60%;
+    margin: auto;
+}
+
+.services-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2%;
+    margin-top: 2%;
+}
+
+.service-card {
+    text-align: left
+}
+
+
+/*Testimonials**************/
+
+.testimonials {
+    text-align: center;
+    background-color: #fbfbfb;
+    padding: 2%;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-top: 2%;
+    grid-row-gap: 2vh;
+}
+
+.card {
+    padding: 1em;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+
+.card img {
+    border-radius: 50%;
+    margin-bottom: 2%;
+}
+
+hr {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 
 /*Footer**************/
 
 footer {
-    text-align: center;
     width: 100%;
-    background-color: #40494e;
+    background-color: #113448;
     color: white;
+    padding: 2%;
 }
 
-.social-links a {
-    text-decoration: none;
+.footer-div {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-row-gap: 1rem;
 }
 
-footer nav ul {
+footer nav ul,
+footer .footer-links ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
 }
 
-footer nav li {
-    padding: 1em;
-}
-
-footer nav ul li a {
+footer nav ul li a,
+footer .footer-links ul li a,
+.social-links a,
+.address .logo {
     text-decoration: none;
     color: white;
 }
 
-footer nav ul li a:hover {
-    border-bottom: 2px solid black;
+.address {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.footer-links {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.subscribe {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.social-links {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.social-links a {
+    margin-right: 2%;
+}
+
+.copyright {
+    grid-column: 1;
+    grid-row: 5;
+    font-size: smaller;
+}
+
+footer nav ul li a:hover,
+footer .footer-links ul li a:hover,
+.social-links a:hover,
+.address .logo:hover {
+    color: #d4d4d4;
 }

@@ -1,20 +1,55 @@
-@media only screen and (min-width: 60em) {
-    header {
-        font-size: 1.17em;
+    @media only screen and (min-width: 60em) {
+        header {
+            font-size: 1.17em;
+        }
+        header nav .navigation li:first-child {
+            display: none;
+        }
+        header nav .navigation {
+            flex-direction: row;
+        }
+        header nav .navigation li {
+            display: block;
+        }
+        .hero-text h1 {
+            font-size: 4.625em;
+        }
+        .hero-text p {
+            font-size: 1.17em;
+        }
+        .card-container {
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
+        }
+        /*footer*/
+        .footer-div {
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            max-width: 60%;
+            margin: auto;
+        }
+        .address {
+            grid-column: 1;
+            grid-row: 1;
+        }
+        footer nav {
+            grid-column: 2;
+            grid-row: 1;
+        }
+        .footer-links {
+            grid-column: 3;
+            grid-row: 1;
+        }
+        .social-links {
+            grid-column: 4;
+            grid-row: 1;
+        }
+        .copyright {
+            grid-column: 1;
+            grid-row: 2;
+        }
+        .subscribe {
+            grid-column: 4;
+            grid-row: 2;
+        }
     }
-    header nav .navigation li:first-child {
-        display: none;
-    }
-    header nav .navigation {
-        flex-direction: row;
-    }
-    header nav .navigation li {
-        display: block;
-    }
-    .hero-text h1 {
-        font-size: 4.625em;
-    }
-    .hero-text p {
-        font-size: 1.17em;
-    }
-}
