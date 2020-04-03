@@ -36,53 +36,78 @@
                 <button href="reservation.html.html">Call to Action</button>
             </div>
         </section>
-        <div class="about-weather">
-            <section class="about">
-                <h2>Salmon River Adventures</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean maximus a diam sed pharetra. Pellentesque tempus quam sem, et egestas quam maximus eu. Nunc ut ipsum arcu. Pellentesque arcu mauris, consectetur in venenatis vitae, consequat
-                    sed odio. In maximus ac dolor non facilisis. Duis malesuada fermentum mauris at bibendum. Aliquam dictum massa justo, id sollicitudin neque aliquet a. Vivamus nulla leo, elementum eget tortor id, viverra tincidunt odio. Ut orci eros,
-                    lobortis non urna non, tempor lacinia velit. Aenean eu ex blandit, sodales massa eget, condimentum nisi. Sed malesuada, tellus in tincidunt ultricies, risus felis commodo velit, vulputate imperdiet magna metus eget felis. </p>
+        <div class="about">
+            <section class="about-text">
+                <p class="special">About</p>
+                <h2>World-class, whitewater rafting experiences on the Salmon River</h2>
+                <p>Salmon River Adventures is a river rafting tour company that offers day and overnight rafting trips for groups or individuals along the Salmon River.</p>
+                <p>Being located in Riggins, Idaho (about three hours north of Boise) means we're truly deep in the middle of Idaho's wilderness and surrounded by scenic views.</p>
+                <p>You'll always receive top-notch service, safety, and care when rafting with us. Our staff have many years of rafting experience and conduct each trip with state of the art equipment that complies with all regulations.</p>
+                <p>Not interested in a guided rafting trip? We also offer additional services.</p>
             </section>
-            <section class="weather">
-                <table>
-                    <tr>
-                        <td class="conditionsLeft">Currently:</td>
-                        <td class="conditionsRight"><img src="#" alt="" id="icon"></td>
-                    </tr>
-                    <tr>
-                        <td class="conditionsLeft">Temperature:</td>
-                        <td class="conditionsRight"><span id="tempId"></span>&#176;F</td>
-                    </tr>
-                    <tr>
-                        <td class="conditionsLeft">Humidity:</td>
-                        <td class="conditionsRight"><span id="humidityId"></span>%</td>
-                    </tr>
-                    <tr>
-                        <td class="conditionsLeft">Wind Speed:</td>
-                        <td class="conditionsRight"><span id="windSpeedId"></span>mph</td>
-                    </tr>
-                </table>
-            </section>
+            <img src="images/raft.png" alt="front of raft on a river">
         </div>
-        <section class="services">
-            <h2>Additional Services</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet ornare ipsum, sed ultrices odio dignissim sit amet.</p>
-            <div class="services-container">
-                <div class="service-card">
-                    <img src="images/kayak.png" alt="yellow kayak icon">
-                    <h3>Rentals</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet ornare ipsum, sed ultrices odio dignissim sit amet.</p>
+        <div class="services-container">
+            <div class="service-card">
+                <img src="images/kayak.png" alt="yellow kayak icon">
+                <h3>Rentals</h3>
+                <p>Rent an inflatable kayak (1-2 passengers) or sport raft (4-8 passengers) for half or full-day fun. Call 1-800-456-7890 for more details.</p>
+            </div>
+            <div class="service-card">
+                <img src="images/map.png" alt="green map icon">
+                <h3>Self-Guided Trips</h3>
+                <p>Want to raft the river without a guide? We offer mapped routes for self-guided trips including shuttle drop off and pick up for maximum ease.</p>
+            </div>
+            <div class="service-card">
+                <img src="images/trailer.png" alt="camping trailer icon">
+                <h3>Camping Sites</h3>
+                <p>Stay nearby at one of our tent or RV sites. Our private campgrounds have power and water hook ups, bathrooms, and easy river access.</p>
+            </div>
+        </div>
+        <section class="current-conditions">
+            <div class="current-conditions-grid">
+                <div class="current-news">
+                    <h2>Current Rafting News</h2>
+                    <p>All April trips will be postponed due to coronavirus. We will contact you with more details.</p>
+                    <p>River guide training class scheduled for May 16, 2020.</p>
+                    <p>Season begins May 30, 2020.</p>
                 </div>
-                <div class="service-card">
-                    <img src="images/map.png" alt="green map icon">
-                    <h3>Tours</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet ornare ipsum, sed ultrices odio dignissim sit amet.</p>
+                <div class="weather">
+                    <div class="location-info">
+                        <h4>Riggins, ID</h4>
+                        <p id="currentWeekdayId"></p>
+                        <p id="currentlyId"></p>
+                    </div>
+                    <div class="temp-info">
+                        <img id="icon" src="#" alt="">
+                        <p><span id="tempId"></span>&#176;F</p>
+                    </div>
+                    <div class="conditions-info">
+                        <p>Humidity: <span id="humidityId"></span>%</p>
+                        <p>Wind: <span id="windSpeedId"></span>mph</p>
+                    </div>
                 </div>
-                <div class="service-card">
-                    <img src="images/trailer.png" alt="camping trailer icon">
-                    <h3>Camping Sites</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet ornare ipsum, sed ultrices odio dignissim sit amet.</p>
-                </div>
+            </div>
+        </section>
+        <section class="gallery">
+            <h2>Recent Trips</h2>
+            <div class="image-container">
+                <figure>
+                    <img src="images/placeholder270x270.jpg" data-src="images/rapids.jpg" alt="A raft with four people in rapids">
+                    <div class="caption">Figcaption here</div>
+                </figure>
+                <figure>
+                    <img src="images/placeholder270x270.jpg" data-src="images/river.jpg" alt="River with rocks surrounded by evergreen forest">
+                    <div class="caption">Figcaption here</div>
+                </figure>
+                <figure>
+                    <img src="images/placeholder270x270.jpg" data-src="images/jump.jpg" alt="Woman jumping off a rock into a river">
+                    <div class="caption">Figcaption here</div>
+                </figure>
+                <figure>
+                    <img src="images/placeholder270x270.jpg" data-src="images/calm.jpg" alt="One raft floating a calm river">
+                    <div class="caption">Figcaption here</div>
+                </figure>
             </div>
         </section>
         <section class="testimonials">
@@ -99,7 +124,7 @@
                 <div class="card">
                     <img src="images/man.jpg" alt="portrait of a man">
                     <p>The first whitewater rafting company I ventured out with set a high bar, but Salmon River Adventures met and passed that measure. James took us out and was very skilled, personable, and fun river guide. My friend, a first-time rafter,
-                        perfectly handled class IV-V rapids thanks to James. If you like adrenaline rushes, you’ve got to ride the Salmon river! Thankfully, there are also hiking trails for those who chose to opt out of the advanced rapids. </p>
+                        perfectly handled class IV-V rapids thanks to James. If you love adrenaline, you’ve got to ride the Salmon river! Thankfully, there are also hiking trails for those who chose to opt out of the advanced rapids. </p>
                     <hr>
                     <h4>John Mitchell</h4>
                 </div>

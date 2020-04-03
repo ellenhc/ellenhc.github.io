@@ -64,7 +64,6 @@ h6 {
     font-family: 'Montserrat', sans-serif;
     padding: 0;
     margin: 0;
-    margin-bottom: 0.5rem;
 }
 
 p {
@@ -78,6 +77,13 @@ p {
 
 * {
     box-sizing: border-box;
+}
+
+.special {
+    font-size: smaller;
+    text-transform: uppercase;
+    color: #556A19;
+    margin-bottom: 1em;
 }
 
 
@@ -119,39 +125,30 @@ p {
 /*About**************/
 
 .about {
-    text-align: left;
-    padding: 2%;
-}
-
-.about-weather {
     display: grid;
     grid-template-columns: 1fr 1fr;
-}
-
-#currentlyId,
-#tempId,
-#windChillId,
-#humidityId,
-#windSpeedId {
-    font-size: 60px;
-    color: #113448;
-}
-
-
-/*Services**************/
-
-.services {
-    text-align: center;
-    padding: 2%;
+    grid-column-gap: 2vw;
+    padding: 4% 2% 2% 2%;
     max-width: 60%;
     margin: auto;
 }
 
+.about img {
+    border-radius: 0.25rem;
+}
+
+.about-text p,
+.current-news p {
+    margin-top: 1em;
+}
+
 .services-container {
+    max-width: 60%;
+    margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 2%;
-    margin-top: 2%;
+    padding: 0 2% 4% 2%;
 }
 
 .service-card {
@@ -159,20 +156,78 @@ p {
 }
 
 
+/*Current conditions*********/
+
+.current-conditions {
+    background-color: #fbfbfb;
+    padding: 4% 2% 4% 2%;
+}
+
+.current-conditions-grid {
+    max-width: 60%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2vw;
+}
+
+.weather {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    background-color: white;
+    padding: 2%;
+}
+
+.location-info {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.temp-info {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.conditions-info {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+
+/*Gallery*****************/
+
+.gallery {
+    max-width: 60%;
+    margin: auto;
+    text-align: center;
+    padding: 4% 2% 4% 2%;
+}
+
+.image-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+
 /*Testimonials**************/
 
 .testimonials {
-    text-align: center;
     background-color: #fbfbfb;
-    padding: 2%;
+    padding: 4% 2% 4% 2%;
+    text-align: center;
 }
 
 .card-container {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    margin-top: 2%;
     grid-row-gap: 2vh;
+    max-width: 60%;
+    margin: 2% auto auto auto;
 }
 
 .card {
