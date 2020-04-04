@@ -50,7 +50,7 @@
         .current-conditions-grid {
             max-width: 60%;
             margin: auto;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: auto auto;
             grid-template-rows: 1fr;
             grid-column-gap: 2vw;
         }
