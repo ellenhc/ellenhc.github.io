@@ -25,6 +25,7 @@
         }
         /*about*/
         .about {
+            padding: 4% 2% 2% 2%;
             width: 60%;
             margin: auto;
             grid-template-columns: auto auto;
@@ -37,8 +38,12 @@
         .services-container {
             width: 60%;
             margin: auto;
+            padding: 0 2% 4% 2%;
         }
         /*current*/
+        .current-conditions {
+            padding: 4% 2% 4% 2%;
+        }
         .current-news {
             text-align: left;
         }
@@ -53,17 +58,22 @@
         .gallery {
             max-width: 60%;
             margin: auto;
+            padding: 4% 2% 4% 2%;
         }
         .image-container {
             grid-template-columns: 1fr 1fr 1fr;
         }
         /*testimonials*/
         .card-container {
+            padding: 4% 2% 4% 2%;
             grid-template-columns: 1fr 1fr 1fr;
             grid-column-gap: 2vw;
             width: 60%;
         }
         /*footer*/
+        footer {
+            padding: 2%;
+        }
         .footer-div {
             grid-template-columns: 1fr 1fr 1fr 1fr;
             grid-template-rows: 1fr 1fr;

@@ -16,11 +16,11 @@
     .services-container {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
+        grid-column-gap: 2vw;
     }
     .service-card {
         text-align: left;
     }
-    /*current*/
     /*gallery*/
     .image-container {
         grid-template-columns: 1fr 1fr;
