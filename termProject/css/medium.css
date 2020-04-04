@@ -5,19 +5,31 @@
     header {
         font-size: 1.1em;
     }
+    /*hero*/
     .hero-text h1 {
         font-size: 2.5em;
     }
     .hero-text p {
         font-size: 1.1em;
     }
-    .hero button {
-        margin-bottom: 0;
+    /*about*/
+    .services-container {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
     }
+    .service-card {
+        text-align: left;
+    }
+    /*current*/
+    /*gallery*/
+    .image-container {
+        grid-template-columns: 1fr 1fr;
+    }
+    /*testimonials*/
     .card-container {
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
         grid-column-gap: 2vw;
+        grid-row-gap: 2vh;
     }
     /*footer*/
     .footer-div {

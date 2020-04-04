@@ -11,15 +11,57 @@
         header nav .navigation li {
             display: block;
         }
+        /*hero*/
+        .hero-text {
+            max-width: 60%;
+            margin: auto;
+            padding: 0;
+        }
         .hero-text h1 {
             font-size: 4.625em;
         }
         .hero-text p {
             font-size: 1.17em;
         }
+        /*about*/
+        .about {
+            width: 60%;
+            margin: auto;
+            grid-template-columns: auto auto;
+            grid-template-rows: 1fr;
+            grid-column-gap: 2vw;
+        }
+        .about img {
+            margin-top: 0;
+        }
+        .services-container {
+            width: 60%;
+            margin: auto;
+        }
+        /*current*/
+        .current-news {
+            text-align: left;
+        }
+        .current-conditions-grid {
+            max-width: 60%;
+            margin: auto;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+            grid-column-gap: 2vw;
+        }
+        /*gallery*/
+        .gallery {
+            max-width: 60%;
+            margin: auto;
+        }
+        .image-container {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        /*testimonials*/
         .card-container {
             grid-template-columns: 1fr 1fr 1fr;
-            grid-template-rows: 1fr;
+            grid-column-gap: 2vw;
+            width: 60%;
         }
         /*footer*/
         .footer-div {

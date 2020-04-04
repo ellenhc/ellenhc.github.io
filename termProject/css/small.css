@@ -69,28 +69,30 @@ h6 {
 p {
     padding: 0;
     margin: 0;
+    margin-top: 1rem;
 }
 
 .hide {
     display: none;
 }
 
-* {
-    box-sizing: border-box;
-}
-
 .special {
     font-size: smaller;
     text-transform: uppercase;
     color: #556A19;
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 
 /*Index**************/
 
 .hero {
-    width: 100vw;
+    width: 100%;
     height: 90vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero.jpg");
     background-position: center;
@@ -99,10 +101,14 @@ p {
 }
 
 .hero-text {
+    margin: auto;
     text-align: center;
     color: white;
-    max-width: 60%;
-    margin: auto;
+    padding: 2%;
+}
+
+.hero-text p {
+    margin-bottom: 1rem;
 }
 
 .hero button {
@@ -126,33 +132,27 @@ p {
 
 .about {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 2vw;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
     padding: 4% 2% 2% 2%;
-    max-width: 60%;
-    margin: auto;
 }
 
 .about img {
     border-radius: 0.25rem;
-}
-
-.about-text p,
-.current-news p {
-    margin-top: 1em;
+    width: 100%;
+    margin-top: 1rem;
 }
 
 .services-container {
-    max-width: 60%;
-    margin: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 2%;
     padding: 0 2% 4% 2%;
 }
 
 .service-card {
-    text-align: left
+    text-align: center
 }
 
 
@@ -164,11 +164,14 @@ p {
 }
 
 .current-conditions-grid {
-    max-width: 60%;
-    margin: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 2vw;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 2vh;
+}
+
+.current-news {
+    text-align: center;
 }
 
 .weather {
@@ -200,16 +203,18 @@ p {
 /*Gallery*****************/
 
 .gallery {
-    max-width: 60%;
-    margin: auto;
     text-align: center;
     padding: 4% 2% 4% 2%;
 }
 
 .image-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+}
+
+.image-container figure img {
+    max-width: 100%;
+    height: auto;
 }
 
 
@@ -224,14 +229,12 @@ p {
 .card-container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
     grid-row-gap: 2vh;
-    max-width: 60%;
     margin: 2% auto auto auto;
 }
 
 .card {
-    padding: 1em;
+    padding: 1rem;
     background-color: #ffffff;
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.25rem;
