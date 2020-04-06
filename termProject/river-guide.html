@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Salmon River Adventures | River Guides</title>
+    <meta name="description" content="Salmon River Adventure's homepage">
+    <link rel="shortcut icon" href="">
+    <link rel="apple-touch-icon" href="">
+    <script src="https://kit.fontawesome.com/0a5e9baade.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <header>
+        <a class="logo" href="index.html"> Salmon River Adventures</a>
+        <nav>
+            <ul class="navigation">
+                <li><a class="ham" href="#">&#9776; Menu</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="river-guide.html">River Guides</a></li>
+                <li><a href="reservation.html">Reservations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="subpage-hero">
+            <div class="hero-text">
+                <h1>Meet Our Guides</h1>
+                <p>You will receive a confirmation email within 48 hours.</p>
+            </div>
+        </section>
+        <div class="guides-container">
+            <div class="guide">
+                <img src="images/alex.jpg" alt="portrait of Alex">
+                <h4>Alex</h4>
+                <p>Two years</p>
+            </div>
+            <div class="guide">
+                <img src="images/lauren.jpg" alt="portrait of Lauren">
+                <h4>Lauren</h4>
+                <p>First year</p>
+            </div>
+            <div class="guide">
+                <img src="images/mark.jpg" alt="portrait of Mark">
+                <h4>Mark</h4>
+                <p>Three years</p>
+            </div>
+            <div class="guide">
+                <img src="images/megan.jpg" alt="portrait of Megan">
+                <h4>Megan</h4>
+                <p>Megan has been leading rafting trips for us for over four years.</p>
+            </div>
+        </div>
+        <section class="text">
+            <h2>Want to become a guide?</h2>
+            <p>We currently have both part-time and full-time positions open. If you're committed to becoming a professional river guide for Salmon River Adventures, we offer two whitewater raft guide training programs in April and June. Check out the current
+                rafting news on the homepage for starting dates. But please remember, all dates are tentative based upon river water levels and conditions. </p>
+            <p></p>All training programs occur over four weekends and cover the State of Idaho Outfitters and Guides Licensing requirements. Such requirements include raft flipping, first aid & CPR, swimming in rapids, and much more. By signing up, you will
+            receive a training manual and a season pass to join any scheduled trips during that season. Give us a call, send an email, or complete our contact form to join a training program. </p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-div">
+            <div class="address">
+                <a class="logo" href="index.html">Salmon River Adventures</a>
+                <address>(123)456-7890<br>
+                    106 South Main St<br>
+                    Riggins, ID 83549</address>
+            </div>
+            <nav class="hide">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="active" href="river-guide.html">River Guides</a></li>
+                    <li><a href="reservation.html">Reservations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="footer-links">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="https://openweathermap.org/" target="_blank">OpenWeatherMap</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div class="social-links">
+                <h4>Stay Connected</h4>
+                <a href="https://www.facebook.com" target="_blank">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+                <a href="https://www.instagram.com" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.twitter.com" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.youtube.com" target="_blank">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+            <div class="copyright">
+                <p>&copy; <span id="currentYearId"></span> Salmon River Adventures<br> Developed by Ellen Carlson.</p>
+            </div>
+            <div class="subscribe">
+                <h4>Subscribe</h4>
+                <form method="get" action="thanks.html">
+                    <input type="email" id="email" name="email" placeholder="yourname@email.com" required>
+                    <input type="submit" value=">">
+                </form>
+            </div>
+        </div>
+    </footer>
+    <script src="js/responsiveNav.js"></script>
+    <script src="js/currentDate.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/lazyLoad.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Montserrat', 'Roboto', 'Permanent Marker']
+            }
+        });
+    </script>
+</body>
+
+</html>

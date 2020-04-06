@@ -11,6 +11,11 @@
         header nav .navigation li {
             display: block;
         }
+        .text {
+            width: 60%;
+            margin: auto;
+            padding: 4% 2% 2% 2%;
+        }
         /*hero*/
         .hero-text {
             max-width: 60%;
@@ -69,6 +74,25 @@
             grid-template-columns: 1fr 1fr 1fr;
             grid-column-gap: 2vw;
             width: 60%;
+        }
+        /*Guides*/
+        .guides-container {
+            padding: 4% 2% 0 2%;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-column-gap: 2vw;
+            width: 60%;
+        }
+        /*reservation*/
+        .reservation-form {
+            max-width: 60%;
+            margin: auto;
+            padding: 4% 2% 4% 2%;
+        }
+        /*contact*/
+        .contact-form {
+            max-width: 60%;
+            margin: auto;
+            padding: 4% 2% 4% 2%;
         }
         /*footer*/
         footer {

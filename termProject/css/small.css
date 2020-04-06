@@ -88,12 +88,29 @@ p {
     box-sizing: border-box;
 }
 
+.text {
+    padding: 1rem;
+}
+
+.text section {
+    margin-bottom: 2%;
+}
+
 
 /*Index**************/
 
 .hero {
     width: 100%;
     height: 90vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+
+.subpage-hero {
+    width: 100%;
+    height: 50vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero.jpg");
     background-position: center;
     background-size: cover;
@@ -274,6 +291,99 @@ hr {
 }
 
 
+/*Guides****************/
+
+.guides-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 2vh;
+    margin: 2% auto auto auto;
+    padding: 1rem;
+}
+
+.guide {
+    padding: 1rem;
+    text-align: center;
+    background-color: #fbfbfb;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+
+.guide img {
+    border-radius: 50%;
+    margin-bottom: 2%;
+}
+
+
+/*Reservation**********/
+
+.reservation-form {
+    padding: 1rem;
+}
+
+form fieldset {
+    margin: auto;
+    background-color: #fbfbfb;
+    border: solid #eeeeee;
+    margin-bottom: 2%;
+    border-radius: 0.25rem;
+}
+
+form label.top,
+form div {
+    display: block;
+    padding-top: 1rem;
+    font-size: 0.9rem;
+    text-align: left;
+}
+
+form label.top input,
+form label.top select,
+form label.top textarea {
+    display: block;
+    border: solid 1px #eeeeee;
+    border-radius: 0.25rem;
+    padding: 0.75rem 0 0.75rem 0.75rem;
+    width: 100%;
+}
+
+main input[type="submit"] {
+    background-color: #113448;
+    color: white;
+    border: solid 3px white;
+    padding: 1% 2% 1% 2%;
+    border-radius: 0.25rem;
+    font-weight: bold;
+}
+
+main input[type="submit"]:hover {
+    background-color: #02070a;
+}
+
+
+/*Contact**************/
+
+.contact-form {
+    text-align: center;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.contact-form i {
+    color: #556A19;
+}
+
+.contact-form a {
+    text-decoration: none;
+    margin-right: 2%;
+}
+
+.contact-form input[type="submit"] {
+    margin-top: 2%
+}
+
+
 /*Footer**************/
 
 footer {
@@ -319,6 +429,11 @@ footer .footer-links ul li a,
 .subscribe {
     grid-column: 1;
     grid-row: 3;
+}
+
+.subscribe form input {
+    border: solid 1px #eeeeee;
+    padding: 0.25rem 0 0.25rem 0.25rem;
 }
 
 .social-links {

@@ -31,6 +31,18 @@
         grid-column-gap: 2vw;
         grid-row-gap: 2vh;
     }
+    /*Guides*/
+    .guides-container {
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 2vw;
+        grid-row-gap: 2vh;
+    }
+    /*contact*/
+    .contact-form {
+        text-align: left;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 2vw;
+    }
     /*footer*/
     .footer-div {
         grid-template-columns: 1fr 1fr 1fr;
