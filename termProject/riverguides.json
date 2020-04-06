@@ -1,28 +1,28 @@
 {
     "guides": [{
             "name": "Alex",
-            "photo": "alex.jpg",
+            "photo": "alex",
             "email": "alex@SRAdventures.com",
             "certification": "Advanced",
             "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi suscipit consectetur imperdiet. Sed metus erat, dapibus eget felis eu, egestas maximus neque. Aenean consequat nisl quam. Integer congue eros non eros volutpat dapibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
         },
         {
             "name": "Lauren",
-            "photo": "lauren.jpg",
+            "photo": "lauren",
             "email": "lauren@SRAdventures.com",
             "certification": "Intermediate",
             "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi suscipit consectetur imperdiet. Sed metus erat, dapibus eget felis eu, egestas maximus neque. Aenean consequat nisl quam. Integer congue eros non eros volutpat dapibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
         },
         {
             "name": "Mark",
-            "photo": "mark.jpg",
+            "photo": "mark",
             "email": "mark@SRAdventures.com",
             "certification": "Intermediate",
             "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi suscipit consectetur imperdiet. Sed metus erat, dapibus eget felis eu, egestas maximus neque. Aenean consequat nisl quam. Integer congue eros non eros volutpat dapibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
         },
         {
             "name": "Megan",
-            "photo": "megan.jpg",
+            "photo": "megan",
             "email": "megan@SRAdventures.com",
             "certification": "Advanced",
             "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi suscipit consectetur imperdiet. Sed metus erat, dapibus eget felis eu, egestas maximus neque. Aenean consequat nisl quam. Integer congue eros non eros volutpat dapibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
