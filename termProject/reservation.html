@@ -40,14 +40,14 @@
             <form method="get" action="thanks.html">
                 <fieldset>
                     <legend>Trip Information</legend>
-                    <label class="top">Difficulty Level<input list="difficultyLevel" name="difficultyLevel" required>
-                        <datalist id="difficultyLevel">
+                    <label class="top">Adventure Selection<input list="adventureSelection" name="adventureSelection" required>
+                        <datalist id="adventureSelection">
                             <option value="Beginner">Beginner</option>
                             <option value="Intermediate">Intermediate</option>
                             <option value="Advanced">Advanced</option>
                         </datalist>
                     </label>
-                    <label class="top">Date <input type="date" name="tripDate" required></label>
+                    <label class="top">Trip Date <input type="date" name="tripDate" required></label>
                     <label class="top">Departure Time<input list="tripTime" name="tripTime">
                         <datalist id="tripTime">
                             <option value="8:00AM">8:00AM</option>
@@ -85,6 +85,10 @@
 
                     <label class="top">Phone *<input type="tel" name="phone" placeholder="1235551234" required></label>
                 </fieldset>
+                <fieldset>
+                    <legend>Additional Information</legend>
+                    <label class="top">Comments / Questions<textarea name="additionalInfo"></textarea></label>
+                </fieldset>
                 <input type="submit" value="Reserve">
             </form>
         </div>
@@ -95,7 +99,7 @@
             <div class="address">
                 <a class="logo" href="index.html">Salmon River Adventures</a>
                 <address>(123)456-7890<br>
-                    106 South Main St<br>
+                    1000 South Main St<br>
                     Riggins, ID 83549</address>
             </div>
             <nav class="hide">

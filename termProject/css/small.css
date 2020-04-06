@@ -390,6 +390,10 @@ form label.top textarea {
     width: 100%;
 }
 
+form label.top textarea {
+    resize: vertical;
+}
+
 main input[type="submit"] {
     background-color: #113448;
     color: white;
