@@ -25,7 +25,7 @@ header nav .navigation li {
 
 header nav .navigation li a {
     text-decoration: none;
-    padding: 1rem;
+    margin: 1rem;
     display: block;
     color: #02070a;
 }
@@ -33,6 +33,10 @@ header nav .navigation li a {
 header nav .navigation li a:hover,
 .logo:hover {
     color: #113448;
+}
+
+.navigation .active {
+    border-bottom: 0.25rem solid #02070a;
 }
 
 header nav .responsive li {
@@ -226,6 +230,8 @@ p {
     grid-column: 1 / 3;
     grid-row: 2;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .forecast-card {
@@ -302,6 +308,7 @@ hr {
     width: 100%;
     background-color: #fbfbfb;
     text-align: center;
+    padding: 1rem;
 }
 
 .guides-container {
@@ -309,7 +316,6 @@ hr {
     grid-template-columns: 1fr;
     grid-row-gap: 2vh;
     margin: 2% auto auto auto;
-    padding: 1rem;
 }
 
 .guide {
@@ -318,11 +324,26 @@ hr {
     background-color: white;
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.25rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
 }
 
 .guide img {
     border-radius: 50%;
     margin-bottom: 2%;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.guide .guide-stats {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.guide .guide-bio {
+    grid-column: 1 / 3;
+    grid-row: 2;
 }
 
 
@@ -369,7 +390,7 @@ main button {
     color: white;
     border: solid 3px white;
     padding: 1% 2% 1% 2%;
-    border-radius: 0.25rem;
+    border-radius: 5px;
     font-weight: bold;
 }
 
@@ -389,9 +410,17 @@ main button:hover {
     grid-template-columns: 1fr;
 }
 
+.contact-form form {
+    margin-bottom: 1rem;
+}
+
 .contact-form i {
-    color: #556A19;
+    color: #61B93E;
     margin-right: 2%;
+}
+
+.contact-form a i {
+    color: #43802b;
 }
 
 .contact-form a {
@@ -456,7 +485,17 @@ footer .footer-links ul li a,
 
 .subscribe form input {
     border: solid 1px #eeeeee;
+    border-radius: 0.25rem 0 0 0.25rem;
+    padding: 0.25rem 0.5rem 0.25rem 0.25rem;
+}
+
+.subscribe input[type="submit"] {
+    color: #113448;
+    background-color: white;
     padding: 0.25rem 0 0.25rem 0.25rem;
+    border-radius: 0 0.25rem 0.25rem 0;
+    font-weight: bold;
+    border: 1px solid white;
 }
 
 .social-links {

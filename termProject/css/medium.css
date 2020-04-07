@@ -34,14 +34,20 @@
     /*Guides*/
     .guides-container {
         grid-template-columns: 1fr 1fr;
-        /*grid-column-gap: 2vw;
-        grid-row-gap: 2vh;*/
+        grid-column-gap: 2vw;
+        grid-row-gap: 2vh;
+    }
+    .guide {
+        text-align: left;
     }
     /*contact*/
     .contact-form {
         text-align: left;
         grid-template-columns: 1fr 1fr;
         grid-column-gap: 2vw;
+    }
+    .contact-form form {
+        margin-bottom: 0;
     }
     /*footer*/
     .footer-div {

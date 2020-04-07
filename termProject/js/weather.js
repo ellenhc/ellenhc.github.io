@@ -1,6 +1,30 @@
 const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5606338&appid=de0b9a3291e852137733bf4abab06ac0&units=imperial";
 const apiForecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=5606338&appid=de0b9a3291e852137733bf4abab06ac0&units=imperial";
 
+//let currentTime = new Date();
+let currentDay = new Date();
+
+var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]; //Use an array to display the name of the weekday
+let currentWeekday = days[currentDay.getDay()]; //Returns the weekday of a date
+
+let currentHour = currentDay.getHours();
+if (currentHour > 12) {
+    currentHour -= 12;
+} else if (currentHour == 0) {
+    currentHour = 12;
+}
+
+let currentMinutes = currentDay.getMinutes();
+if (currentMinutes < 10) {
+    currentMinutes = "0" + currentMinutes;
+}
+
+if (currentDay.getHours() >= 12) {
+    document.getElementById("currentWeekdayId").innerHTML = currentWeekday + ", " + currentHour + ":" + currentMinutes + " PM";
+} else {
+    document.getElementById("currentWeekdayId").innerHTML = currentWeekday + ", " + currentHour + ":" + currentMinutes + " AM";
+}
+
 fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
@@ -30,7 +54,6 @@ function getWindChill() {
 }
 
 //Supplies the dates for five day forecast
-let currentDay = new Date();
 let currentDayNumber = currentDay.getDay() + 1;
 let endDay = currentDayNumber + 5;
 for (i = currentDayNumber; i < endDay; i++) {
