@@ -14,7 +14,7 @@
         .text {
             width: 60%;
             margin: auto;
-            padding: 4% 2% 2% 2%;
+            padding: 4% 2% 4% 2%;
         }
         /*hero*/
         .hero-text {
@@ -55,7 +55,7 @@
         .current-conditions-grid {
             max-width: 60%;
             margin: auto;
-            grid-template-columns: auto auto;
+            grid-template-columns: 1fr 1fr;
             grid-template-rows: 1fr;
             grid-column-gap: 2vw;
         }
@@ -69,18 +69,24 @@
             grid-template-columns: 1fr 1fr 1fr;
         }
         /*testimonials*/
+        .testimonials {
+            padding: 4% 0 4% 0;
+        }
         .card-container {
-            padding: 4% 2% 4% 2%;
             grid-template-columns: 1fr 1fr 1fr;
             grid-column-gap: 2vw;
             width: 60%;
+            margin: 2% auto 0 auto;
         }
         /*Guides*/
+        .color {
+            padding: 4% 2% 4% 2%;
+        }
         .guides-container {
-            padding: 4% 2% 0 2%;
             grid-template-columns: 1fr 1fr 1fr 1fr;
             grid-column-gap: 2vw;
             width: 60%;
+            padding: 0;
         }
         /*reservation*/
         .reservation-form {

@@ -230,6 +230,11 @@ p {
 
 .forecast-card {
     text-align: center;
+    margin-right: 2%;
+}
+
+.forecast-card:last-child {
+    margin-right: 0;
 }
 
 .dayClass,
@@ -291,50 +296,13 @@ hr {
 }
 
 
-/*Reservation**********/
-
-form fieldset {
-    margin: auto;
-    background-color: #fbfbfb;
-    border: solid #eeeeee;
-    margin-bottom: 2%;
-    border-radius: 0.25rem;
-}
-
-form label.top,
-form div {
-    display: block;
-    padding-top: 1rem;
-    font-size: 0.9rem;
-    text-align: left;
-}
-
-form label.top input,
-form label.top select,
-form label.top textarea {
-    display: block;
-    border: solid 1px #eeeeee;
-    border-radius: 0.25rem;
-    padding: 0.75rem 0 0.75rem 0.75rem;
-    width: 100%;
-    box-sizing: border-box;
-}
-
-input[type="submit"] {
-    background-color: #113448;
-    color: white;
-    border: solid 3px white;
-    padding: 1% 2% 1% 2%;
-    border-radius: 0.25rem;
-    font-weight: bold;
-}
-
-input[type="submit"]:hover {
-    background-color: #02070a;
-}
-
-
 /*Guides****************/
+
+.color {
+    width: 100%;
+    background-color: #fbfbfb;
+    text-align: center;
+}
 
 .guides-container {
     display: grid;
@@ -347,7 +315,7 @@ input[type="submit"]:hover {
 .guide {
     padding: 1rem;
     text-align: center;
-    background-color: #fbfbfb;
+    background-color: white;
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.25rem;
 }
@@ -394,7 +362,9 @@ form label.top textarea {
     resize: vertical;
 }
 
-main input[type="submit"] {
+.reservation-form input[type="submit"],
+.contact-form input[type="submit"],
+main button {
     background-color: #113448;
     color: white;
     border: solid 3px white;
@@ -403,7 +373,9 @@ main input[type="submit"] {
     font-weight: bold;
 }
 
-main input[type="submit"]:hover {
+.reservation-form input[type="submit"]:hover,
+.contact-form input[type="submit"]:hover,
+main button:hover {
     background-color: #02070a;
 }
 
@@ -419,15 +391,19 @@ main input[type="submit"]:hover {
 
 .contact-form i {
     color: #556A19;
+    margin-right: 2%;
 }
 
 .contact-form a {
     text-decoration: none;
-    margin-right: 2%;
 }
 
 .contact-form input[type="submit"] {
     margin-top: 2%
+}
+
+iframe {
+    width: 100%;
 }
 
 

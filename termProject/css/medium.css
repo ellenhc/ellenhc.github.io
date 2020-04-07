@@ -34,8 +34,8 @@
     /*Guides*/
     .guides-container {
         grid-template-columns: 1fr 1fr;
-        grid-column-gap: 2vw;
-        grid-row-gap: 2vh;
+        /*grid-column-gap: 2vw;
+        grid-row-gap: 2vh;*/
     }
     /*contact*/
     .contact-form {
