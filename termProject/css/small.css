@@ -363,6 +363,14 @@ hr {
     justify-items: center;
 }
 
+.guide #name1,
+.guide #name2,
+.guide #name3,
+.guide #name4 {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
 .guide img {
     border-radius: 50%;
     margin-bottom: 1rem;
