@@ -100,6 +100,14 @@ p {
     margin-bottom: 2%;
 }
 
+a {
+    text-decoration: none;
+}
+
+a .button {
+    display: inline-block;
+}
+
 
 /*Index**************/
 
@@ -132,17 +140,14 @@ p {
     margin-bottom: 1rem;
 }
 
-.hero button {
+.hero .button {
     background-color: transparent;
     background-image: none;
-    color: white;
     border: solid 3px white;
     padding: 1% 2% 1% 2%;
-    border-radius: 5px;
-    font-weight: bold;
 }
 
-.hero button:hover {
+.hero .button:hover {
     background-color: white;
     color: black;
     transition: all 0.3s;
@@ -283,15 +288,13 @@ p {
     height: auto;
 }
 
-.image-container button {
+.image-container .button {
     background-color: #61B93E;
-    padding: 0.5rem;
-    color: white;
     margin: 0 0 1rem 1rem;
     font-weight: normal;
 }
 
-.image-container button:hover {
+.image-container .button:hover {
     background-color: #57a638;
 }
 
@@ -421,18 +424,22 @@ form label.top textarea {
 
 .reservation-form input[type="submit"],
 .contact-form input[type="submit"],
-main button {
+main .button {
     background-color: #113448;
     color: white;
-    border: solid 3px white;
     padding: 0.5rem;
     border-radius: 5px;
     font-weight: bold;
 }
 
+.reservation-form input[type="submit"],
+.contact-form input[type="submit"] {
+    border: solid 3px white;
+}
+
 .reservation-form input[type="submit"]:hover,
 .contact-form input[type="submit"]:hover,
-main button:hover {
+main .button:hover {
     background-color: #02070a;
 }
 
