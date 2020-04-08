@@ -1,4 +1,5 @@
 const imagesToLoad = document.querySelectorAll("img[data-src]");
+const mapToLoad = document.querySelectorAll("iframe[data-src]");
 
 const imgOptions = {
     threshold: 0,
@@ -28,5 +29,31 @@ if ('IntersectionObserver' in window) {
 } else {
     imagesToLoad.forEach((img) => {
         loadImages(img);
+    });
+}
+
+const loadMap = (iframe) => {
+    iframe.setAttribute('src', iframe.getAttribute('data-src'));
+    iframe.onload = () => {
+        iframe.removeAttribute('data-src');
+    };
+};
+
+if ('IntersectionObserver' in window) {
+    const mapObserver = new IntersectionObserver((items, observer) => {
+        items.forEach((item) => {
+            if (item.isIntersecting) {
+                loadMap(item.target);
+                mapObserver.unobserve(item.target);
+            }
+        });
+    });
+
+    mapToLoad.forEach((iframe) => {
+        mapObserver.observe(iframe);
+    });
+} else {
+    mapToLoad.forEach((iframe) => {
+        loadMap(iframe);
     });
 }
