@@ -1,5 +1,6 @@
 const imagesToLoad = document.querySelectorAll("img[data-src]");
 const mapToLoad = document.querySelectorAll("iframe[data-src]");
+const bgToLoad = document.querySelectorAll(".lazy-bg-load[data-src]");
 
 const imgOptions = {
     threshold: 0,
@@ -57,3 +58,15 @@ if ('IntersectionObserver' in window) {
         loadMap(iframe);
     });
 }
+
+// The lazy background loads
+bgToLoad.forEach((bg) => {
+    const url = bg.getAttribute('data-src'); // get the full size image
+    const image = new Image(); // create a virtual image
+    image.src = url;
+    image.onload = () => {
+        bg.classList.remove("lazy-bg-load");
+        // Update the CSS image
+        bg.style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('" + url + "')";
+    };
+})
