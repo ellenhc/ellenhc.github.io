@@ -289,13 +289,13 @@ a .button {
 }
 
 .image-container .button {
-    background-color: #61B93E;
+    background-color: #57a638;
     margin: 0 0 1rem 1rem;
     font-weight: normal;
 }
 
 .image-container .button:hover {
-    background-color: #57a638;
+    background-color: #4d9331;
 }
 
 
