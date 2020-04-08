@@ -21,9 +21,11 @@
     .service-card {
         text-align: left;
     }
-    /*gallery*/
+    /*adventures*/
     .image-container {
         grid-template-columns: 1fr 1fr;
+        grid-column-gap: 2vw;
+        grid-row-gap: 2vh;
     }
     /*testimonials*/
     .card-container {

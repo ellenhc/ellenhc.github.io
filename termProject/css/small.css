@@ -250,7 +250,7 @@ p {
 }
 
 
-/*Gallery*****************/
+/*adventures***************/
 
 .gallery {
     text-align: center;
@@ -258,13 +258,41 @@ p {
 }
 
 .image-container {
+    margin: 2% auto auto auto;
     display: grid;
     grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: start;
+}
+
+.image-container figure {
+    width: 100%;
+    text-align: left;
+    background-color: white;
+    border-radius: 0.25rem;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    overflow: hidden;
+}
+
+.image-container .caption {
+    margin: 1rem;
 }
 
 .image-container figure img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
+}
+
+.image-container button {
+    background-color: #61B93E;
+    padding: 0.5rem;
+    color: white;
+    margin: 0 0 1rem 1rem;
+    font-weight: normal;
+}
+
+.image-container button:hover {
+    background-color: #57a638;
 }
 
 
@@ -373,7 +401,7 @@ form label.top input,
 form label.top select,
 form label.top textarea {
     display: block;
-    border: solid 1px #eeeeee;
+    border: solid 1px #d4d4d4;
     border-radius: 0.25rem;
     padding: 0.75rem 0 0.75rem 0.75rem;
     width: 100%;
@@ -389,7 +417,7 @@ main button {
     background-color: #113448;
     color: white;
     border: solid 3px white;
-    padding: 1% 2% 1% 2%;
+    padding: 0.5rem;
     border-radius: 5px;
     font-weight: bold;
 }
@@ -398,6 +426,39 @@ main button {
 .contact-form input[type="submit"]:hover,
 main button:hover {
     background-color: #02070a;
+}
+
+.table-container {
+    padding: 1rem;
+    text-align: center;
+}
+
+.table-container i {
+    color: #61B93E;
+    margin-right: 2%;
+}
+
+.table-container table {
+    width: 100%;
+    border-radius: 0.25rem;
+    margin-top: 2%;
+}
+
+th,
+td {
+    padding: 0.75rem
+}
+
+.table-container table th {
+    background-color: #e1e1e1;
+}
+
+.table-container table tr {
+    background-color: #eeeeee;
+}
+
+.table-container table tr:nth-child(even) {
+    background-color: #fbfbfb;
 }
 
 

@@ -59,11 +59,11 @@
             grid-template-rows: 1fr;
             grid-column-gap: 2vw;
         }
-        /*gallery*/
+        /*adventures*/
         .gallery {
             max-width: 60%;
             margin: auto;
-            padding: 4% 2% 4% 2%;
+            padding: 4% 0 4% 0;
         }
         .image-container {
             grid-template-columns: 1fr 1fr 1fr;
@@ -90,7 +90,12 @@
         .reservation-form {
             max-width: 60%;
             margin: auto;
-            padding: 4% 2% 4% 2%;
+            padding: 2% 2% 4% 2%;
+        }
+        .table-container {
+            max-width: 60%;
+            margin: auto;
+            padding: 4% 2% 2% 2%;
         }
         /*contact*/
         .contact-form {
