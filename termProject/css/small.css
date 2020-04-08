@@ -289,12 +289,8 @@ a .button {
 }
 
 .image-container .button {
-    background-color: #4d9332;
     margin: 0 0 1rem 1rem;
-}
-
-.image-container .button:hover {
-    background-color: #43802b;
+    font-weight: normal;
 }
 
 
