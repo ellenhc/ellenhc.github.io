@@ -12,6 +12,7 @@ fetch(jsonURL)
             document.getElementById(`pic${i+1}`).setAttribute('alt', altText);
             document.getElementById(`email${i+1}`).textContent = jsObject.guides[i].email;
             document.getElementById(`cert${i+1}`).textContent = jsObject.guides[i].certification;
+            document.getElementById(`years${i+1}`).textContent = jsObject.guides[i].years;
             document.getElementById(`bio${i+1}`).textContent = jsObject.guides[i].biography;
         }
     });

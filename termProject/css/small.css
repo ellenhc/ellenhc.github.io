@@ -347,21 +347,29 @@ hr {
 }
 
 .guide {
+    text-align: left;
     padding: 1rem;
-    text-align: center;
     background-color: white;
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.25rem;
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
 }
 
 .guide img {
     border-radius: 50%;
-    margin-bottom: 2%;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
     grid-column: 1;
     grid-row: 1;
+}
+
+.guide p {
+    margin: 0;
 }
 
 .guide .guide-stats {
